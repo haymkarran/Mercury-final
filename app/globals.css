@@ -244,7 +244,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 1279px) {
+@media only screen and (max-width: 1366px) {
   .text-h1 {
     font-size: 60px !important;
     line-height: 76px !important;
