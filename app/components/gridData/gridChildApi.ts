@@ -485,7 +485,7 @@ const GridChildApi = [
         "Paragraph": [
             { 
                 "id": 1, 
-                "paraData": "© Mercury 2023. All rights reserved.",
+                "paraData": "© Mercury 2024. All rights reserved.",
                 "paraLink": "",
             },
         ],
