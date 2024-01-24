@@ -26,7 +26,7 @@ const config: Config = {
       }
     },
     fontSize: {
-      h1: ['76px', '96px'],
+      h1: ['70px', '86px'],
       h2: ['64px', '80px'],
       h3: ['46px', '58px'],
       h4: ['30px', '38px'],
