@@ -404,7 +404,7 @@ const GridChildApi = [
         "Paragraph": [
             { 
                 "id": 1, 
-                "paraData": "Mercury is a multifaceted payments ecosystem enabler fostering growth & digitalisation.",
+                "paraData": "Mercury designs, deploys, and manages Digital Payment ecosystems that enable sovereignty and inclusion.",
                 "paraLink": "",
             },
         ],
