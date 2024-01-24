@@ -125,7 +125,7 @@ export default function Careers () {
         <GridContainer gridCols="!flex !gap-5 ml-5 mr-5 !shrink-0 items-start flex-nowrap overflow-auto !flex-row pb-20">
             <GridChild 
               childId={70}
-              childName="peopleContainer !gap-y-4 max1366px:!w-60 !w-72"
+              childName="peopleContainer !gap-y-4 !w-60"
               assetOrder={1}
               h3Order={2}
               h4Order={3}
