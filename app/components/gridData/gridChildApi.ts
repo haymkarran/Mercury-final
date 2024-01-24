@@ -1843,7 +1843,7 @@ const GridChildApi = [
         "headingH4" : [
             {
                 "id": 1,
-                "headingText": "IT & Security",
+                "headingText": "Information Security",
                 "headingLink": "https://www.linkedin.com/in/bashar-almohammadi-550bb7265/",
             }
         ],
