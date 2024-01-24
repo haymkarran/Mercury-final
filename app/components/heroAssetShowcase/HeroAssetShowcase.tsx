@@ -21,7 +21,7 @@ const HeroAssetShowcase: React.FC = () => {
                 />
                 <div className='centered'>
                     <h1 className='text-h3 mb-4'>Built Locally, Connected Globally</h1>
-                    <p className='text-paragraph'>Founded in the UAE, Mercury is a multifaceted payments ecosystem enabler fostering growth & digitalization. We are a technology-driven, solution-oriented team with decades of experience in the payments domain. We are on a mission to democratize financial services, level the playing field and drive cashless ecosystems.</p>
+                    <p className='text-paragraph'>Founded in the UAE, Mercury designs, deploys, and manages Digital Payment ecosystems that enable sovereignty and inclusion. We are a technology-driven, solution-oriented team with decades of experience in the payments domain. We are on a mission to democratize financial services, level the playing field and drive cashless ecosystems.</p>
                 </div>
             </motion.div>
         </>
