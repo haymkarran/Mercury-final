@@ -121,7 +121,7 @@ export default function Careers () {
     </section>
 
     {/* people grid */}
-    <section className='m-auto flex !w-full min1661px:justify-center overflow-scroll pb-20 min1367px:justify-center'>
+    <section className='m-auto flex !w-full min1661px:justify-center max1366px:overflow-scroll min1367px:overflow-hidden pb-20 min1367px:justify-center'>
         <GridContainer gridCols="!flex !gap-5 ml-5 mr-5 !shrink-0 items-start flex-nowrap overflow-auto !flex-row pb-20">
             <GridChild 
               childId={70}
