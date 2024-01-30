@@ -15,7 +15,7 @@ export default function Services() {
 
     {/* 360 begins */}
 
-    <section className='m-auto w-full max-parent-grid-container-width pb-60'>
+    <section className='m-auto w-full max-parent-grid-container-width max990px:pb-20 min991px:pb-60'>
         <GridContainer gridCols="grid-cols-2 max709px:grid-cols-1">
           <GridChild 
               childId={32}
@@ -71,7 +71,7 @@ export default function Services() {
 
     {/* mHub begins */}
 
-    <section className='m-auto w-full max-parent-grid-container-width pb-60'>
+    <section className='m-auto w-full max-parent-grid-container-width max990px:pb-20 min991px:pb-60'>
         <GridContainer gridCols="grid-cols-2 max990px:grid-cols-1">
         <GridChild 
               childId={39}

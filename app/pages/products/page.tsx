@@ -15,7 +15,7 @@ export default function Products() {
 
     {/* MPay begins */}
 
-    <section className='m-auto w-full max-parent-grid-container-width pb-60'>
+    <section className='m-auto w-full max-parent-grid-container-width max990px:pb-20 min991px:pb-60'>
         <GridContainer gridCols="grid-cols-2 max990px:grid-cols-1">
             <GridChild 
               childId={19}
@@ -72,7 +72,7 @@ export default function Products() {
 
     {/* mTouch begins */}
 
-    <section className='m-auto w-full max-parent-grid-container-width min991px:pb-60 pb-20'>
+    <section className='m-auto w-full max-parent-grid-container-width max990px:pb-20 min991px:pb-60'>
         <GridContainer gridCols="grid-cols-2 max990px:grid-cols-1">
             <GridChild 
               childId={27}
