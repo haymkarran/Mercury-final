@@ -1317,7 +1317,7 @@ const GridChildApi = [
         "Paragraph": [
             { 
                 "id": 1, 
-                "paraData": "Board Member",
+                "paraData": "Board member",
                 "paraLink": "https://www.linkedin.com/in/muzaffar-khokhar/",
             },
         ],

@@ -34,11 +34,6 @@
         font-size: 34px;
     }
 
-    .heroAssetContainer {
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-
     .heroAssetContainer img {
         object-position: right;
     }
