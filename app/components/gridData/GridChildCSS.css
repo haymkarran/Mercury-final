@@ -310,3 +310,7 @@
 .mpay .asset, .m360 .asset, .mtouch .asset, .mhub .asset {
     margin: 0 auto;
 }
+
+.muzaffarKhokhar p, .sanjeev p, .jun p {
+    height: 64px;
+}

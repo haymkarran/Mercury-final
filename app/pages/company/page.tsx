@@ -97,7 +97,7 @@ export default function Company () {
         <GridContainer gridCols="!flex justify-center flex-row flex-wrap !align-start pb-20 m-auto">
             <GridChild 
               childId={58}
-              childName="muzafferHamid peopleManagementGrid h-full !justify-between"
+              childName="muzaffarKhokhar peopleManagementGrid h-full !justify-between"
               assetOrder={1}
               h4Order={2}
               paragraphOrder={3}
