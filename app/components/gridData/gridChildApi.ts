@@ -445,12 +445,12 @@ const GridChildApi = [
             { 
                 "id": 1, 
                 "paraData": "360",
-                "paraLink": "/pages/products#m360Section",
+                "paraLink": "/pages/services#m360Section",
             },
             { 
                 "id": 2, 
                 "paraData": "Hub",
-                "paraLink": "/pages/products#mHubSection",
+                "paraLink": "/pages/services#mHubSection",
             },
         ],
     },
