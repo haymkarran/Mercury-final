@@ -19,7 +19,7 @@ export default function Home() {
 
     <HeroAssetShowcase image={mercuryOffice.src} />
 
-    <section className='m-auto w-full bg-tintGreen mb-40'>
+    <section className='m-auto w-full bg-tintGreen mb-40 max-parent-grid-container-width rounded-xl'>
         <section className='m-auto max-parent-grid-container-width pt-20'>
             <GridContainer gridCols="grid-cols-1 text-center">
                 <GridChild 
@@ -30,7 +30,7 @@ export default function Home() {
             </GridContainer>
         </section>
         
-        <section className='m-auto max-parent-grid-container-width pt-10 pb-40'>
+        <section className='m-auto max-parent-grid-container-width pt-10 pb-40 min991px:pl-40 min991px:pr-40'>
             <GridContainer gridCols="grid-cols-1 text-center">
                 <GridChild 
                   childId={91}
@@ -79,6 +79,16 @@ export default function Home() {
             />
         </GridContainer>
     </section>
+
+        <section className='m-auto max-parent-grid-container-width pt-20'>
+            <GridContainer gridCols="grid-cols-1 text-center">
+                <GridChild 
+                  childId={98}
+                  customHeaderCss="font-medium"
+                  childName="theManagement"
+                />
+            </GridContainer>
+        </section>
 
     <ClienteleScroller scrollerApiId={1} slideDirection="Backwards" />
     </>

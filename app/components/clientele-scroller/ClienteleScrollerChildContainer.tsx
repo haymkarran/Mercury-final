@@ -26,7 +26,7 @@ const ClienteleScrollerChildContainer: React.FC<ClienteleScrollerChildContainerP
           .filter((currentElement) => currentElement.id === scrollerApiId)
           .map((currentElement) => (
             <div
-              className="clientele-scroller-item-data-container flex flex-row gap-y-2 gap-x-16 relative overflow-visible w-fit"
+              className="clientele-scroller-item-data-container flex flex-row gap-y-2 gap-x-16 relative overflow-visible w-fit pl-40"
               key={currentElement.id}
             >
               {currentElement.itemData &&

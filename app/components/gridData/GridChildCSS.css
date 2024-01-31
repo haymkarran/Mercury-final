@@ -311,6 +311,18 @@
     margin: 0 auto;
 }
 
+.m360 .asset, .mhub .asset {
+    max-width: 45% !important;
+}
+
+.mtouch .asset {
+    max-width: 80% !important;
+}
+
+.mpay .asset {
+    max-width: 63% !important;
+}
+
 .muzaffarKhokhar p, .sanjeev p, .jun p {
     height: 64px;
 }

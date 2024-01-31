@@ -15,7 +15,7 @@ const HeroAssetShowcase: React.FC<HeroShowcaseProps> = ({ image }) => {
         <>
             <motion.div
                 ref={ref}
-                className="heroAssetContainer m-auto w-full max709px:h-full min710px:h-screen"
+                className="heroAssetContainer m-auto max709px:h-full min710px:h-screen mb-20"
             >
                 {/* Use the next/image component for images */}
                 <img

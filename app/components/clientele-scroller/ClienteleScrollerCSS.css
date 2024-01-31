@@ -17,7 +17,7 @@
 }
 
 .clientele-carousal-parent-container .Backwards {
-    animation: sliding-testimonial-backwards 40s linear infinite;
+    animation: sliding-testimonial-backwards 120s linear infinite;
 }
 
 .clientele-carousal-parent-container .BackwardsSlow {
@@ -37,7 +37,7 @@
 
 .clientele-image-container {
     margin: 0 auto;
-    max-width: fit-content;
+    width: 160px;
     height: 100%;
 }
 
@@ -57,7 +57,7 @@
 
 .clientele-item-data-container:hover {
     transform: initial !important;
-    transition: all ease-in-out 0.2s;
+    transition: all ease-in-out 0.3s;
     scale: 1.1;
 }
 
@@ -84,7 +84,7 @@
 	        transition: all 0.6s ease-in-out;
 }
 
-/* @keyframes sliding-testimonial-backwards {
+@keyframes sliding-testimonial-backwards {
     0% {
       transform: translate3d(0, 0, 0);
     }
@@ -100,22 +100,4 @@
     100% {
       transform: translate3d(100%, 0, 0); 
     }
-  } */
-
-  @keyframes sliding-testimonial-backwards {
-    0% {
-        transform: translate3d(0, 0, 0);
-    }
-    100% {
-        transform: translate3d(calc(-100% - 80px), 0, 0); /* Adjust the value accordingly */
-    }
-}
-
-@keyframes sliding-testimonial-forwards {
-    0% {
-        transform: translate3d(0, 0, 0);
-    }
-    100% {
-        transform: translate3d(calc(100% + 80px), 0, 0); /* Adjust the value accordingly */
-    }
-}
+  }

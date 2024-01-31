@@ -1,6 +1,8 @@
 .heroAssetContainer {
     overflow: hidden;
     position: relative;
+    height: 80vh;
+    width: 90% !important;
 }
 
 .heroAssetContainer img {
@@ -36,6 +38,18 @@
 
     .heroAssetContainer img {
         object-position: right;
+    }
+}
+
+@media only screen and (min-width: 710px) {
+    .heroAssetContainer img {
+        border-radius: 20px;
+    }
+}
+
+@media only screen and (max-width: 710px) {
+    .heroAssetContainer {
+        width: 100% !important;
     }
 }
 

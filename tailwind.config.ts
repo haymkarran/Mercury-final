@@ -27,10 +27,10 @@ const config: Config = {
     },
     fontSize: {
       h1: ['60px', '76px'],
-      h2: ['64px', '80px'],
-      h3: ['46px', '58px'],
-      h4: ['28px', '36px'],
-      paragraph: ['24px', '32px'],
+      h2: ['52px', '72px'],
+      h3: ['38px', '52px'],
+      h4: ['24px', '36px'],
+      paragraph: ['22px', '32px'],
       paraSm: ['20px', '26px'],
     },
     screens: {

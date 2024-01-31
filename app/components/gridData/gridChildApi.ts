@@ -2269,6 +2269,16 @@ const GridChildApi = [
             }
         ],
     },
+    {
+        "id": 98,
+        "headingH2" : [
+            {
+                "id": 1,
+                "headingText": "Our Partners",
+                "headingLink": "",
+            }
+        ],
+    },
 ];
 
 export default GridChildApi;
