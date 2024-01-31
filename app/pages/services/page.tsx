@@ -15,13 +15,13 @@ export default function Services() {
 
     {/* 360 begins */}
 
-    <section className='m-auto w-full max-parent-grid-container-width max990px:pb-20 min991px:pb-60'>
+    <section id='m360Section' className='m-auto w-full max-parent-grid-container-width max990px:pb-20 min991px:pb-60'>
         <GridContainer gridCols="grid-cols-2 max709px:grid-cols-1">
           <GridChild 
               childId={32}
               childName="m360Brief"
               customHeaderCss=""
-              h1Order={2}
+              h3Order={2}
               assetOrder={1}
             />
           <GridChild 
@@ -71,12 +71,12 @@ export default function Services() {
 
     {/* mHub begins */}
 
-    <section className='m-auto w-full max-parent-grid-container-width max990px:pb-20 min991px:pb-60'>
+    <section id='mHubSection' className='m-auto w-full max-parent-grid-container-width max990px:pb-20 min991px:pb-60'>
         <GridContainer gridCols="grid-cols-2 max990px:grid-cols-1">
         <GridChild 
               childId={39}
               childName="mHubPageBrief"
-              h1Order={2}
+              h3Order={2}
               customHeaderCss=""
               assetOrder={1}
             />

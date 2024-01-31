@@ -70,7 +70,7 @@ export default function Careers () {
 
 
     {/* How will you make a difference? */}
-    <section className='flex justify-center m-auto w-full !py-32 mt-32 bg-tintGreen'>
+    {/* <section className='flex justify-center m-auto w-full !py-32 mt-32 bg-tintGreen'>
             <GridContainer gridCols="grid-cols-1 max-parent-grid-container-width">
                 <GridChild 
                   childId={76}
@@ -81,7 +81,7 @@ export default function Careers () {
                   checkboxListOrder={3}
                 />
             </GridContainer>
-    </section>
+    </section> */}
 
     {/* Meet Our Tribe */}
     <section className='m-auto w-full max-parent-grid-container-width pt-40 pb-20'>
@@ -104,7 +104,7 @@ export default function Careers () {
               h3Order={2}
               h4Order={3}
               paragraphOrder={4}
-              socialMediaOrder={5}
+              // socialMediaOrder={5}
               customHeaderCss=''
             />
             <GridChild 
@@ -114,7 +114,7 @@ export default function Careers () {
               h3Order={2}
               h4Order={3}
               paragraphOrder={4}
-              socialMediaOrder={5}
+              // socialMediaOrder={5}
               customHeaderCss=''
             />
             <GridChild 
@@ -124,7 +124,7 @@ export default function Careers () {
               h3Order={2}
               h4Order={3}
               paragraphOrder={4}
-              socialMediaOrder={5}
+              // socialMediaOrder={5}
               customHeaderCss=''
             />
             <GridChild 
@@ -134,7 +134,7 @@ export default function Careers () {
               h3Order={2}
               h4Order={3}
               paragraphOrder={4}
-              socialMediaOrder={5}
+              // socialMediaOrder={5}
               customHeaderCss=''
             />
             <GridChild 
@@ -143,7 +143,7 @@ export default function Careers () {
               assetOrder={1}
               h3Order={2}
               h4Order={3}
-              socialMediaOrder={5}
+              // socialMediaOrder={5}
               paragraphOrder={4}
               customHeaderCss=''
             />

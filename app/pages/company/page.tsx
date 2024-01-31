@@ -13,13 +13,13 @@ export default function Company () {
 
     <TopNav />
 
-    <HeroAssetShowcase image={officePeople.src} />
+    <HeroAssetShowcase image={officePeople.src} customCSS="companyHeroImageContainer" />
 
-    <section className='m-auto w-full max-parent-grid-container-width py-20'>
+    <section className='m-auto w-full max-parent-grid-container-width pb-20'>
         <GridContainer gridCols="grid-cols-1 text-center">
             <GridChild 
               childId={90}
-              customHeaderCss=""
+              customHeaderCss="companyHeroText"
               childName="theManagement"
             />
         </GridContainer>

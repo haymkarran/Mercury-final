@@ -15,13 +15,13 @@ export default function Products() {
 
     {/* MPay begins */}
 
-    <section className='m-auto w-full max-parent-grid-container-width max990px:pb-20 min991px:pb-60'>
+    <section id='mPaySection' className='m-auto w-full max-parent-grid-container-width max990px:pb-20 min991px:pb-60'>
         <GridContainer gridCols="grid-cols-2 max990px:grid-cols-1">
             <GridChild 
               childId={19}
               customHeaderCss=""
               childName="mPayBrief"
-              h1Order={2}
+              h3Order={2}
               assetOrder={1}
               buttonOrder={3}
             />
@@ -72,13 +72,13 @@ export default function Products() {
 
     {/* mTouch begins */}
 
-    <section className='m-auto w-full max-parent-grid-container-width max990px:pb-20 min991px:pb-60'>
+    <section id='mTouchSection' className='m-auto w-full max-parent-grid-container-width max990px:pb-20 min991px:pb-60'>
         <GridContainer gridCols="grid-cols-2 max990px:grid-cols-1">
             <GridChild 
               childId={27}
               childName="mTouchBrief"
               customHeaderCss=""
-              h1Order={2}
+              h3Order={2}
               assetOrder={1}
               buttonOrder={3}
             />

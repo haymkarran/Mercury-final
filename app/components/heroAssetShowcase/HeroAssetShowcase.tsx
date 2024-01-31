@@ -6,16 +6,17 @@ import './heroAssetCSS.css';
 
 interface HeroShowcaseProps {
     image: string;
+    customCSS?: string;
   }
 
-const HeroAssetShowcase: React.FC<HeroShowcaseProps> = ({ image }) => {
+const HeroAssetShowcase: React.FC<HeroShowcaseProps> = ({ image, customCSS }) => {
     const ref = useRef<HTMLDivElement>(null);
 
     return (
         <>
             <motion.div
                 ref={ref}
-                className="heroAssetContainer m-auto max709px:h-full min710px:h-screen mb-20"
+                className={`heroAssetContainer ${customCSS} m-auto max709px:h-full min710px:h-screen min710px:mb-20`}
             >
                 {/* Use the next/image component for images */}
                 <img

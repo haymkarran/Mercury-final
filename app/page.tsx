@@ -19,7 +19,7 @@ export default function Home() {
 
     <HeroAssetShowcase image={mercuryOffice.src} />
 
-    <section className='m-auto w-full bg-tintGreen mb-40 max-parent-grid-container-width rounded-xl'>
+    <section className='m-auto w-full bg-black text-white mb-40 max-parent-grid-container-width rounded-xl'>
         <section className='m-auto max-parent-grid-container-width pt-20'>
             <GridContainer gridCols="grid-cols-1 text-center">
                 <GridChild 

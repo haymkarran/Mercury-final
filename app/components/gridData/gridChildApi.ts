@@ -405,7 +405,7 @@ const GridChildApi = [
         "Paragraph": [
             { 
                 "id": 1, 
-                "paraData": "Mercury designs, deploys, and manages Digital Payment ecosystems that enable sovereignty and inclusion.",
+                "paraData": "",
                 "paraLink": "",
             },
         ],
@@ -423,12 +423,12 @@ const GridChildApi = [
             { 
                 "id": 1, 
                 "paraData": "MPay",
-                "paraLink": "/pages/mpay",
+                "paraLink": "/pages/products#mPaySection",
             },
             { 
                 "id": 2, 
                 "paraData": "MTouch",
-                "paraLink": "/pages/mtouch",
+                "paraLink": "/pages/products#mTouchSection",
             },
         ],
     },
@@ -444,13 +444,13 @@ const GridChildApi = [
         "Paragraph": [
             { 
                 "id": 1, 
-                "paraData": "Mercury 360",
-                "paraLink": "/pages/mercury360",
+                "paraData": "360",
+                "paraLink": "/pages/products#m360Section",
             },
             { 
                 "id": 2, 
-                "paraData": "Mercury Hub",
-                "paraLink": "/pages/mercury-hub",
+                "paraData": "Hub",
+                "paraLink": "/pages/products#mHubSection",
             },
         ],
     },
@@ -508,7 +508,7 @@ const GridChildApi = [
     },
     {
         "id": 19,
-        "headingH1" : [
+        "headingH3" : [
             {
                 "id": 1,
                 "headingText": "Payment instrument issuance and acceptance services",
@@ -637,7 +637,7 @@ const GridChildApi = [
     },
     {
         "id": 27,
-        "headingH1" : [
+        "headingH3" : [
             {
                 "id": 1,
                 "headingText": "Powering transit cards for retail payments",
@@ -722,7 +722,7 @@ const GridChildApi = [
     },
     {
         "id": 32,
-        "headingH1" : [
+        "headingH3" : [
             {
                 "id": 1,
                 "headingText": "Enhancing business value through managed and services",
@@ -881,7 +881,7 @@ const GridChildApi = [
     // Hub page first fold
     {
         "id": 39,
-        "headingH1" : [
+        "headingH3" : [
             {
                 "id": 1,
                 "headingText": "Payment Networks in a box",
@@ -1593,7 +1593,7 @@ const GridChildApi = [
                 "id": 1,
                 "imageSrc": khaled.src,
                 "imageAlt": "",
-                "imageContainerLink": "https://www.linkedin.com/in/ksallam/",
+                "imageContainerLink": "",
                 "videoSrc": "",
                 "videoAlt": "",
                 "videoContainerLink": "",
@@ -1604,7 +1604,7 @@ const GridChildApi = [
             {
                 "id": 1,
                 "headingText": "Khaled Sallam",
-                "headingLink": "https://www.linkedin.com/in/ksallam/",
+                "headingLink": "",
             }
         ],
 
@@ -1612,7 +1612,7 @@ const GridChildApi = [
             {
                 "id": 1,
                 "headingText": "Payment Applications",
-                "headingLink": "https://www.linkedin.com/in/ksallam/",
+                "headingLink": "",
             }
         ],
 
@@ -1620,16 +1620,16 @@ const GridChildApi = [
             { 
                 "id": 2, 
                 "paraData": "Do you like challenges? You must join Mercury, you’ll do what you love everyday within a friendly culture.",
-                "paraLink": "https://www.linkedin.com/in/ksallam/",
+                "paraLink": "",
             },
         ],
-        "SocialMedia" : [
-            {
-                "id": 1,
-                "mediaIcon": linkedinFilledIcon.src,
-                "mediaLink": "https://www.linkedin.com/in/ksallam/",
-            }
-        ],
+        // "SocialMedia" : [
+        //     {
+        //         "id": 1,
+        //         "mediaIcon": linkedinFilledIcon.src,
+        //         "mediaLink": "https://www.linkedin.com/in/ksallam/",
+        //     }
+        // ],
     },
     {
         "id": 71,
@@ -1639,7 +1639,7 @@ const GridChildApi = [
                 "id": 1,
                 "imageSrc": sherzod.src,
                 "imageAlt": "",
-                "imageContainerLink": "https://www.linkedin.com/in/sherzod-ibragimov-4209a46/",
+                "imageContainerLink": "",
                 "videoSrc": "",
                 "videoAlt": "",
                 "videoContainerLink": "",
@@ -1650,7 +1650,7 @@ const GridChildApi = [
             {
                 "id": 1,
                 "headingText": "Sherzod Ibragimov",
-                "headingLink": "https://www.linkedin.com/in/sherzod-ibragimov-4209a46/",
+                "headingLink": "",
             }
         ],
 
@@ -1658,7 +1658,7 @@ const GridChildApi = [
             {
                 "id": 1,
                 "headingText": "Technology Infrastructure",
-                "headingLink": "https://www.linkedin.com/in/sherzod-ibragimov-4209a46/",
+                "headingLink": "",
             }
         ],
 
@@ -1666,16 +1666,16 @@ const GridChildApi = [
             { 
                 "id": 2, 
                 "paraData": "Technology and innovation are changing the marketplace and I am proud to be a part of Mercury!",
-                "paraLink": "https://www.linkedin.com/in/sherzod-ibragimov-4209a46/",
+                "paraLink": "",
             },
         ],
-        "SocialMedia" : [
-            {
-                "id": 1,
-                "mediaIcon": linkedinFilledIcon.src,
-                "mediaLink": "https://www.linkedin.com/in/sherzod-ibragimov-4209a46/",
-            }
-        ],
+        // "SocialMedia" : [
+        //     {
+        //         "id": 1,
+        //         "mediaIcon": linkedinFilledIcon.src,
+        //         "mediaLink": "",
+        //     }
+        // ],
     },
     {
         "id": 72,
@@ -1685,7 +1685,7 @@ const GridChildApi = [
                 "id": 1,
                 "imageSrc": lakshmi.src,
                 "imageAlt": "",
-                "imageContainerLink": "https://www.linkedin.com/in/lakshmi-pushparajan-ba07121a/",
+                "imageContainerLink": "",
                 "videoSrc": "",
                 "videoAlt": "",
                 "videoContainerLink": "",
@@ -1696,7 +1696,7 @@ const GridChildApi = [
             {
                 "id": 1,
                 "headingText": "Lakshmi Pushparajan",
-                "headingLink": "https://www.linkedin.com/in/lakshmi-pushparajan-ba07121a/",
+                "headingLink": "",
             }
         ],
 
@@ -1704,7 +1704,7 @@ const GridChildApi = [
             {
                 "id": 1,
                 "headingText": "Testing & Certification",
-                "headingLink": "https://www.linkedin.com/in/lakshmi-pushparajan-ba07121a/",
+                "headingLink": "",
             }
         ],
 
@@ -1712,27 +1712,27 @@ const GridChildApi = [
             { 
                 "id": 2, 
                 "paraData": "Working at Mercury is a fulfilling experience, and I found my place in this dynamic team",
-                "paraLink": "https://www.linkedin.com/in/lakshmi-pushparajan-ba07121a/",
+                "paraLink": "",
             },
         ],
-        "SocialMedia" : [
-            {
-                "id": 1,
-                "mediaIcon": linkedinFilledIcon.src,
-                "mediaLink": "https://www.linkedin.com/in/lakshmi-pushparajan-ba07121a/",
-            }
-        ],
+        // "SocialMedia" : [
+        //     {
+        //         "id": 1,
+        //         "mediaIcon": linkedinFilledIcon.src,
+        //         "mediaLink": "https://www.linkedin.com/in/lakshmi-pushparajan-ba07121a/",
+        //     }
+        // ],
     },
     {
         "id": 73,
-        "childContainerLink": "https://www.linkedin.com/in/sreeragnyarekkat/",
+        "childContainerLink": "",
         
         "Asset": [
             {
                 "id": 1,
                 "imageSrc": sreerag.src,
                 "imageAlt": "",
-                "imageContainerLink": "https://www.linkedin.com/in/sreeragnyarekkat/",
+                "imageContainerLink": "",
                 "videoSrc": "",
                 "videoAlt": "",
                 "videoContainerLink": "",
@@ -1743,7 +1743,7 @@ const GridChildApi = [
             {
                 "id": 1,
                 "headingText": "Sreerag Nyarekkat",
-                "headingLink": "https://www.linkedin.com/in/sreeragnyarekkat/",
+                "headingLink": "",
             }
         ],
 
@@ -1751,7 +1751,7 @@ const GridChildApi = [
             {
                 "id": 1,
                 "headingText": "Sales & BD",
-                "headingLink": "https://www.linkedin.com/in/sreeragnyarekkat/",
+                "headingLink": "",
             }
         ],
 
@@ -1759,16 +1759,16 @@ const GridChildApi = [
             { 
                 "id": 2, 
                 "paraData": "A typical day is never the same at Mercury, every day is filled with new learning opportunities.",
-                "paraLink": "https://www.linkedin.com/in/sreeragnyarekkat/",
+                "paraLink": "",
             },
         ],
-        "SocialMedia" : [
-            {
-                "id": 1,
-                "mediaIcon": linkedinFilledIcon.src,
-                "mediaLink": "https://www.linkedin.com/in/sreeragnyarekkat/",
-            }
-        ],
+        // "SocialMedia" : [
+        //     {
+        //         "id": 1,
+        //         "mediaIcon": linkedinFilledIcon.src,
+        //         "mediaLink": "https://www.linkedin.com/in/sreeragnyarekkat/",
+        //     }
+        // ],
     },
     // {
     //     "id": 74,
@@ -1816,7 +1816,7 @@ const GridChildApi = [
                 "id": 1,
                 "imageSrc": bashar.src,
                 "imageAlt": "",
-                "imageContainerLink": "https://www.linkedin.com/in/bashar-almohammadi-550bb7265/",
+                "imageContainerLink": "",
                 "videoSrc": "",
                 "videoAlt": "",
                 "videoContainerLink": "",
@@ -1827,7 +1827,7 @@ const GridChildApi = [
             {
                 "id": 1,
                 "headingText": "Bashar Fouad",
-                "headingLink": "https://www.linkedin.com/in/bashar-almohammadi-550bb7265/",
+                "headingLink": "",
             }
         ],
 
@@ -1835,7 +1835,7 @@ const GridChildApi = [
             {
                 "id": 1,
                 "headingText": "Information Security",
-                "headingLink": "https://www.linkedin.com/in/bashar-almohammadi-550bb7265/",
+                "headingLink": "",
             }
         ],
 
@@ -1843,16 +1843,16 @@ const GridChildApi = [
             { 
                 "id": 2, 
                 "paraData": "Joining the team wasn’t just embarking on a new job, each day illuminates the power of team work.",
-                "paraLink": "https://www.linkedin.com/in/bashar-almohammadi-550bb7265/",
+                "paraLink": "",
             },
         ],
-        "SocialMedia" : [
-            {
-                "id": 1,
-                "mediaIcon": linkedinFilledIcon.src,
-                "mediaLink": "https://www.linkedin.com/in/bashar-almohammadi-550bb7265/",
-            }
-        ],
+        // "SocialMedia" : [
+        //     {
+        //         "id": 1,
+        //         "mediaIcon": linkedinFilledIcon.src,
+        //         "mediaLink": "https://www.linkedin.com/in/bashar-almohammadi-550bb7265/",
+        //     }
+        // ],
     },
     {
         "id": 75,

@@ -326,3 +326,18 @@
 .muzaffarKhokhar p, .sanjeev p, .jun p {
     height: 64px;
 }
+
+.aboutMercury {
+    width: 220px;
+    height: 80px;
+}
+
+.mPayHeroImage .asset, .mTouchHeroImage .asset, .m360HeroImage .asset, .mHubHeroImage .asset {
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.companyHeroText {
+    font-size: 30px;
+    line-height: 48px;
+}
