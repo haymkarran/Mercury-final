@@ -5,11 +5,13 @@ import GridContainer from '../../components/gridData/GridContainer'
 import GridChild from '../../components/gridData/GridChild'
 import ContactPageForm from '../../components/form/ContactPageForm';
 import officeImage from "../../../public/assets/images/office/mercury-address-image.jpeg"
+import TopNav from '@/app/components/top-nav/TopNav';
 
 const ContactUs: React.FC = () => {
   return (
     <>
-      <section className='m-auto w-full max-parent-grid-container-width pb-20'>
+    <TopNav />
+      <section className='m-auto w-full max-parent-grid-container-width pt-10 py-20'>
         <GridContainer gridCols="grid-cols-1 text-center">
             <GridChild 
               childId={75}

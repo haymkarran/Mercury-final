@@ -1,9 +1,9 @@
-import pic1 from "../../../public/assets/images/teampictures/1.png"
-import pic2 from "../../../public/assets/images/teampictures/2.jpeg"
-import pic3 from "../../../public/assets/images/teampictures/3.jpeg"
-import pic4 from "../../../public/assets/images/teampictures/4.png"
+import pic1 from "../../../public/assets/images/teampictures/1.jpg"
+import pic2 from "../../../public/assets/images/teampictures/2.jpg"
+import pic3 from "../../../public/assets/images/teampictures/3.jpg"
+import pic4 from "../../../public/assets/images/teampictures/4.jpg"
 import pic5 from "../../../public/assets/images/teampictures/5.jpg"
-import pic6 from "../../../public/assets/images/teampictures/6.png"
+import pic6 from "../../../public/assets/images/teampictures/6.jpg"
 
 const AssetLightboxApi = [
     {

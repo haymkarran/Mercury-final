@@ -55,7 +55,7 @@ const AssetLightboxData: React.FC<AssetLightboxDataProps> = ({ lightboxData }) =
 
   return (
     <>
-      {openModal && (
+      {/* {openModal && (
         <div className="lightboxModalContainer">
           <FontAwesomeIcon icon={faCircleXmark} className="btnClose" onClick={handleCloseModal} />
           <FontAwesomeIcon icon={faCircleChevronLeft} className="btnPrev" onClick={prevSlide} />
@@ -70,12 +70,12 @@ const AssetLightboxData: React.FC<AssetLightboxDataProps> = ({ lightboxData }) =
             <p>{lightboxData[slideNumber].caption}</p>
           </div>
         </div>
-      )}
+      )} */}
 
       {lightboxData &&
         lightboxData.map((currentElement, index) => (
           <div
-            className="imageContainerLightbox cursor-pointer rounded-2xl overflow-hidden max990px:!w-full max990px:!h-72 min991px:!h-96"
+            className="imageContainerLightbox rounded-2xl overflow-hidden max990px:!w-full max990px:!h-72 min991px:!h-96"
             key={index}
             onClick={() => handleOpenModal(index)}
             // variants={fadeInAnimationVariants}

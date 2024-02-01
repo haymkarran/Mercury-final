@@ -17,25 +17,25 @@ export default function Home() {
     <>
     <TopNav />
 
-    <HeroAssetShowcase image={mercuryOffice.src} />
+    <HeroAssetShowcase image={mercuryOffice.src} customCSS="homeHeroImageContainer" />
 
     <section className='m-auto w-full bg-black text-white mb-40 max-parent-grid-container-width rounded-xl'>
         <section className='m-auto max-parent-grid-container-width pt-20'>
             <GridContainer gridCols="grid-cols-1 text-center">
                 <GridChild 
                   childId={97}
-                  customHeaderCss="font-medium"
-                  childName="theManagement"
+                  customHeaderCss="font-medium beyondPaymentsText"
+                  childName=""
                 />
             </GridContainer>
         </section>
         
-        <section className='m-auto max-parent-grid-container-width pt-10 pb-40 min991px:pl-40 min991px:pr-40'>
+        <section className='m-auto max-parent-grid-container-width pt-10 min710px:pb-30 pb-20 min991px:pl-40 min991px:pr-40'>
             <GridContainer gridCols="grid-cols-1 text-center">
                 <GridChild 
                   childId={91}
-                  customHeaderCss=""
-                  childName="theManagement"
+                  customHeaderCss="homeHeroText"
+                  childName=""
                 />
             </GridContainer>
         </section>

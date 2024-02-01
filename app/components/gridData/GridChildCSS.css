@@ -258,6 +258,10 @@
     min-height: 490px;
 }
 
+.mPayCard1, .mPayCard2 {
+    min-height: 310px;
+}
+
 .peopleManagementGrid .asset {
     overflow: hidden;
     max-height: 300px;

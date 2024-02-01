@@ -34,7 +34,7 @@ export default function Products() {
 
     {/* Payment cards for every purpose */}
 
-    <section className='m-auto featureSection w-full max-parent-grid-container-width bg-tintRed rounded-xl px-12 py-20 min991px:mb-40 mb-20 relative overflow-hidden'>
+    <section className='m-auto mPayCard1 w-full max-parent-grid-container-width bg-tintRed rounded-xl px-12 py-20 mb-10 relative overflow-hidden'>
         <GridContainer gridCols="grid-cols-2 max990px:grid-cols-1">
             <GridChild 
               childId={28}
@@ -52,7 +52,7 @@ export default function Products() {
         <div className='patternPosition max990px:hidden'><img src={leafPattern.src} alt=""></img></div>
     </section>
 
-    <section className='m-auto featureSection w-full max-parent-grid-container-width bg-tintGreen rounded-xl px-12 py-20 min991px:mb-40 mb-20 relative overflow-hidden'>
+    <section className='m-auto mPayCard2 w-full max-parent-grid-container-width bg-tintGreen rounded-xl px-12 py-20 min991px:mb-40 mb-20 relative overflow-hidden'>
         <GridContainer gridCols="grid-cols-2 max990px:grid-cols-1">
             <GridChild 
               childId={30}

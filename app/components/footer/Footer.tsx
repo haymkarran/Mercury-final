@@ -19,10 +19,10 @@ const Footer = () => {
         </GridContainer>
     </section> */}
     <section className='sectionContainer m-auto w-full max-parent-grid-container-width pt-40 pb-8 footer-section-components'>
-        <GridContainer gridCols="grid-cols-5 m-auto !items-start pb-12 border-b max709px:grid-cols-1 max990px:gap-y-24">
+        <GridContainer gridCols="grid-cols-4 m-auto !items-start pb-12 border-b max709px:grid-cols-1 max990px:gap-y-24">
         <GridChild 
               childId={13}
-              childName="aboutMercury col-start-1 col-end-3"
+              childName="aboutMercury col-start-1 col-end-2 pt-10"
               assetOrder={1}
               socialMediaOrder={2}
               paragraphOrder={3}

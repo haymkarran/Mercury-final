@@ -15,24 +15,26 @@ export default function Company () {
 
     <HeroAssetShowcase image={officePeople.src} customCSS="companyHeroImageContainer" />
 
-    <section className='m-auto w-full max-parent-grid-container-width pb-20'>
-        <GridContainer gridCols="grid-cols-1 text-center">
-            <GridChild 
-              childId={90}
-              customHeaderCss="companyHeroText"
-              childName="theManagement"
-            />
-        </GridContainer>
+    <section className='m-auto w-full max-parent-grid-container-width pt-10 mb-20 bg-black text-white companyHeroSubSection'>
+        <section className='m-auto w-full max-parent-grid-container-width pl-20 pr-20 pb-10'>
+            <GridContainer gridCols="grid-cols-1 text-center">
+                <GridChild 
+                  childId={90}
+                  customHeaderCss="companyHeroText"
+                  childName=""
+                />
+            </GridContainer>
+        </section>
     </section>
 
-    <section className='m-auto w-full max-parent-grid-container-width py-20'>
-        <GridContainer gridCols="grid-cols-1 text-center">
-            <GridChild 
-              childId={51}
-              customHeaderCss="font-medium"
-              childName="theManagement"
-            />
-        </GridContainer>
+    <section className='m-auto w-full max-parent-grid-container-width pb-10'>
+            <GridContainer gridCols="grid-cols-1 text-center">
+                <GridChild 
+                  childId={51}
+                  customHeaderCss="font-medium"
+                  childName=""
+                />
+            </GridContainer>
     </section>
 
     {/* management people grid */}
