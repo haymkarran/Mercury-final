@@ -67,7 +67,7 @@
 } */
 
 .companyHeroImageContainer {
-    height: 370px;
+    height: 420px;
     margin-bottom: 0px !important;
 }
 
@@ -87,7 +87,7 @@
 
 @media only screen and (max-width: 1366px){
     .companyHeroImageContainer {
-        height: 370px;
+        height: 420px;
     }
     
     .companyHeroImageContainer img {
