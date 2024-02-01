@@ -67,8 +67,14 @@
 } */
 
 .companyHeroImageContainer {
-    height: 600px;
+    height: 370px;
     margin-bottom: 0px !important;
+}
+
+@media only screen and (min-width: 1661px){
+    .companyHeroImageContainer {
+        height: 600px;
+    }
 }
 
 .homeHeroImageContainer {
