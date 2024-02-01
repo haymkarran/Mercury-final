@@ -49,10 +49,12 @@ const ContactPageForm: React.FC = () => {
             <optgroup label="Products">
               <option value="MPay">MPay</option>
               <option value="MTouch">MTouch</option>
+              <option value="Others">Others</option>
             </optgroup>
             <optgroup label="Services">
-              <option value="Mercury 360">Mercury 360</option>
-              <option value="Mercury Hub">Mercury Hub</option>
+              <option value="360">360</option>
+              <option value="HUB">HUB</option>
+              <option value="Others">Others</option>
             </optgroup>
           </select>
         </fieldset>
@@ -60,11 +62,11 @@ const ContactPageForm: React.FC = () => {
         {/* Additional fields are commented out for brevity */}
 
         <fieldset className="fieldGroup">
-          <label htmlFor="enquiry_description">Describe your enquiry or question</label>
-          <textarea id="enquiry_description" name="enquiry_description" placeholder="Tell us what do you need."></textarea>
+          <label htmlFor="enquiry_description">Describe your enquiry</label>
+          <textarea id="enquiry_description" name="enquiry_description" placeholder="Tell us what you need."></textarea>
         </fieldset>
 
-        <button className='w-full bg-black p-4 rounded-md text-white' type="submit">Send Your Message</button>
+        <button className='w-full bg-black p-4 rounded-md text-white' type="submit">Send</button>
       </form>
     </>
   );

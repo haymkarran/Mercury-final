@@ -1,8 +1,3 @@
-.aboutMercury .asset img {
-    width: 340px !important;
-    height: auto !important;
-}
-
 .mPayFeatureOne .asset, 
 .mPayFeatureTwo .asset, 
 .mPayFeatureThree .asset,
@@ -331,9 +326,13 @@
     height: 64px;
 }
 
-.aboutMercury {
+.aboutMercury .asset img {
     width: 220px;
     height: 80px;
+}
+
+.aboutMercury .asset {
+    margin-top: -10px;
 }
 
 .mPayHeroImage .asset, .mTouchHeroImage .asset, .m360HeroImage .asset, .mHubHeroImage .asset {
@@ -344,4 +343,10 @@
 .companyHeroText {
     font-size: 30px;
     line-height: 48px;
+}
+
+@media only screen and (max-width: 554px){
+    .aboutMercury .asset img, .aboutMercury .socialMediaMainContainer {
+        margin: 0 auto;
+    }
 }

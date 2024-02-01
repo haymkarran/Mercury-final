@@ -22,28 +22,28 @@ const Footer = () => {
         <GridContainer gridCols="grid-cols-4 m-auto !items-start pb-12 border-b max709px:grid-cols-1 max990px:gap-y-24">
         <GridChild 
               childId={13}
-              childName="aboutMercury col-start-1 col-end-2 pt-10"
+              childName="aboutMercury col-start-1 col-end-2 max554px:text-center max554px:m-auto max554px:justify-center"
               assetOrder={1}
               socialMediaOrder={2}
               paragraphOrder={3}
             />
         <GridChild 
               childId={16}
-              childName="companyLinksFooter"
+              childName="companyLinksFooter max554px:text-center"
               customHeaderCss="font-bold"
               h4Order={1}
               paragraphOrder={2}
             />
             <GridChild 
               childId={14}
-              childName="productsLinksFooter"
+              childName="productsLinksFooter max554px:text-center"
               customHeaderCss="font-bold"
               h4Order={1}
               paragraphOrder={2}
             />
             <GridChild 
               childId={15}
-              childName="servicesLinksFooter"
+              childName="servicesLinksFooter max554px:text-center"
               customHeaderCss="font-bold"
               h4Order={1}
               paragraphOrder={2}

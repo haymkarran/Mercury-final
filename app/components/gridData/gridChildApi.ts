@@ -10,6 +10,7 @@ import MHubLogo from "../../../public/assets/logos/products and services/MHub/mh
 import MercuryOfficialLogo from "../../../public/assets/logos/products and services/Mercury Official Logo/mercury-official-logo.svg"
 import FacebookIcon from "../../../public/assets/icons/facebook.svg"
 import InstagramIcon from "../../../public/assets/icons/instagram.svg"
+import TwitterIcon from "../../../public/assets/icons/twitter.svg"
 import LinkedinIcon from "../../../public/assets/icons/linkedin.svg"
 import expandIcon from "../../../public/assets/icons/expand.svg"
 import checkListIcon from "../../../public/assets/icons/checkList.svg"
@@ -388,17 +389,22 @@ const GridChildApi = [
             {
                 "id": 1,
                 "mediaIcon": FacebookIcon.src,
-                "mediaLink": "https://facebook.com",
+                "mediaLink": "https://www.facebook.com/profile.php?id=100083085439596",
             },
             {
                 "id": 2,
                 "mediaIcon": InstagramIcon.src,
-                "mediaLink": "https://instagram.com",
+                "mediaLink": "https://www.instagram.com/mercurypayments/",
             },
             {
                 "id": 3,
                 "mediaIcon": LinkedinIcon.src,
-                "mediaLink": "https://linkedin.com",
+                "mediaLink": "https://www.linkedin.com/company/mercury-payments-services/",
+            },
+            {
+                "id": 4,
+                "mediaIcon": TwitterIcon.src,
+                "mediaLink": "https://twitter.com/Mercury_Pay",
             }
         ],
 
@@ -725,7 +731,7 @@ const GridChildApi = [
         "headingH3" : [
             {
                 "id": 1,
-                "headingText": "Enhancing business value through managed and services",
+                "headingText": "Enhancing business value through managed services",
                 "headingLink": "",
             }
         ],
@@ -1470,7 +1476,7 @@ const GridChildApi = [
         "Paragraph": [
             { 
                 "id": 1, 
-                "paraData": "We are working with businesses locally & globally for inclusive, sustainable, and equitable growth.",
+                "paraData": "At Mercury, we're delighted to present enriching career opportunities. Come be a part of our dynamic, innovative, and multicultural team.",
                 "paraLink": "",
             },
         ],
@@ -1750,7 +1756,7 @@ const GridChildApi = [
         "headingH4" : [
             {
                 "id": 1,
-                "headingText": "Sales & BD",
+                "headingText": "Business Development",
                 "headingLink": "",
             }
         ],
@@ -2078,7 +2084,7 @@ const GridChildApi = [
         "headingH3" : [
             {
                 "id": 1,
-                "headingText": "'Ready To Deploy Framework",
+                "headingText": "Ready To Deploy Framework",
                 "headingLink": "",
             }
         ],
@@ -2101,7 +2107,7 @@ const GridChildApi = [
             {
                 "id": 2,
                 "listIcon": checkListIcon.src,
-                "listItemText": "Global complaince standards",
+                "listItemText": "Global compliance standards",
             },
             {
                 "id": 3,

@@ -88,7 +88,7 @@ const GridChild: React.FC<ChildComponentProps> = ({ childName, childId, childCon
                             contentData.tagText && (
                               <div key={contentData.id} className={`order-${tagsOrder}`}>
                                 {contentData.tagLink ? (
-                                  <Link href={contentData.tagLink} target="_blank" rel="noopener noreferrer">
+                                  <Link href={contentData.tagLink} rel="noopener noreferrer">
                                     <div className='w-max px-4 py-3 rounded-md bg-white'>{contentData.tagText}</div>
                                   </Link>
                                 ) : (
@@ -104,7 +104,7 @@ const GridChild: React.FC<ChildComponentProps> = ({ childName, childId, childCon
                           currentElement.headingH1.map((headingContentData) => (
                             <div key={headingContentData.id} className={`order-${h1Order}`}>
                                 {headingContentData.headingLink ?(
-                                  <Link href={headingContentData.headingLink} target="_blank" rel="noopener noreferrer">
+                                  <Link href={headingContentData.headingLink} rel="noopener noreferrer">
                                       <h1 className={`text-h1 max709px:pb-8 ${customHeaderCss}`}>{headingContentData.headingText}</h1>
                                   </Link>
                                 ) : ( headingContentData.headingText &&
@@ -119,7 +119,7 @@ const GridChild: React.FC<ChildComponentProps> = ({ childName, childId, childCon
                           headingContentData.headingText && (  // Check if headingText is not an empty number
                             <div key={headingContentData.id} className={`order-${h2Order}`}>
                               {headingContentData.headingLink ? (
-                                <Link href={headingContentData.headingLink} target="_blank" rel="noopener noreferrer">
+                                <Link href={headingContentData.headingLink} rel="noopener noreferrer">
                                   <h2 className={`text-h2 ${customHeaderCss}`}>{headingContentData.headingText}</h2>
                                 </Link>
                               ) : (
@@ -135,7 +135,7 @@ const GridChild: React.FC<ChildComponentProps> = ({ childName, childId, childCon
                         headingContentData.headingText && (  // Check if headingText is not an empty number
                           <div key={headingContentData.id} className={`order-${h3Order}`}>
                             {headingContentData.headingLink ? (
-                              <Link href={headingContentData.headingLink} target="_blank" rel="noopener noreferrer">
+                              <Link href={headingContentData.headingLink} rel="noopener noreferrer">
                                 <h3 className={`text-h3 ${customHeaderCss}`}>{headingContentData.headingText}</h3>
                               </Link>
                             ) : (
@@ -150,7 +150,7 @@ const GridChild: React.FC<ChildComponentProps> = ({ childName, childId, childCon
                         headingContentData.headingText && (  // Check if headingText is not an empty number
                           <div key={headingContentData.id} className={`order-${h4Order}`}>
                             {headingContentData.headingLink ? (
-                              <Link href={headingContentData.headingLink} target="_blank" rel="noopener noreferrer">
+                              <Link href={headingContentData.headingLink} rel="noopener noreferrer">
                                 <h4 className={`text-h4 ${customHeaderCss}`}>{headingContentData.headingText}</h4>
                               </Link>
                             ) : (
@@ -168,7 +168,7 @@ const GridChild: React.FC<ChildComponentProps> = ({ childName, childId, childCon
                             <div key={assetContentsData.id} className={`order-${assetOrder} asset`}>
                               {assetContentsData.imageSrc && (
                                 assetContentsData.imageContainerLink ? (
-                                  <Link href={assetContentsData.imageContainerLink} target="_blank" rel="noopener noreferrer">
+                                  <Link href={assetContentsData.imageContainerLink} rel="noopener noreferrer">
                                     <img className='w-full h-full object-contain' src={assetContentsData.imageSrc} alt={assetContentsData.imageAlt} />
                                   </Link>
                                 ) : (
@@ -178,7 +178,7 @@ const GridChild: React.FC<ChildComponentProps> = ({ childName, childId, childCon
 
                               {assetContentsData.videoSrc && (
                                 assetContentsData.videoContainerLink ? (
-                                  <Link href={assetContentsData.videoContainerLink} target="_blank" rel="noopener noreferrer">
+                                  <Link href={assetContentsData.videoContainerLink} rel="noopener noreferrer">
                                     <video autoPlay className='w-full h-full'>
                                       <source src={assetContentsData.videoSrc} type="video/mp4" />
                                       Your browser does not support the video tag.
@@ -202,7 +202,7 @@ const GridChild: React.FC<ChildComponentProps> = ({ childName, childId, childCon
                           paraContentsData.paraData && (
                             <div key={paraContentsData.id} className={`order-${paragraphOrder}`}>
                               {paraContentsData.paraLink ? (
-                                <Link href={paraContentsData.paraLink} target="_blank" rel="noopener noreferrer">
+                                <Link href={paraContentsData.paraLink} rel="noopener noreferrer">
                                   <p className='text-paragraph opacity-80'>{paraContentsData.paraData}</p>
                                 </Link>
                               ) : (
@@ -252,7 +252,7 @@ const GridChild: React.FC<ChildComponentProps> = ({ childName, childId, childCon
                         } */}
 
                         {currentElement.SocialMedia && (
-                            <div className={`order-${socialMediaOrder} flex flex-row flex-wrap gap-2`}>
+                            <div className={`order-${socialMediaOrder} flex flex-row flex-wrap gap-2 socialMediaMainContainer`}>
                               {currentElement.SocialMedia.map((socialMediaData) => (
                                 socialMediaData.mediaLink && (
                                   <Link key={socialMediaData.id} href={socialMediaData.mediaLink} target="_blank" rel="noopener noreferrer">
