@@ -81,7 +81,7 @@
 
 @media only screen and (max-width: 1366px){
     .companyHeroImageContainer, .homeHeroImageContainer {
-        height: 420px;
+        height: 370px;
     }
     
     .companyHeroImageContainer img {

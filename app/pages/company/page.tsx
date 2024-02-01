@@ -15,7 +15,7 @@ export default function Company () {
 
     <HeroAssetShowcase image={officePeople.src} customCSS="companyHeroImageContainer" />
 
-    <section className='m-auto w-full max-parent-grid-container-width pt-10 mb-20 bg-black text-white companyHeroSubSection'>
+    <section className='m-auto w-full max-parent-grid-container-width pt-10 mb-36 bg-black text-white companyHeroSubSection'>
         <section className='m-auto w-full max-parent-grid-container-width pl-20 pr-20 pb-10'>
             <GridContainer gridCols="grid-cols-1 text-center">
                 <GridChild 
