@@ -33,7 +33,7 @@ export default function Services() {
 
     {/* 360 contents */}
 
-    <section className='m-auto featureSection w-full max-parent-grid-container-width bg-tintGray rounded-xl px-12 py-20 min991px:mb-40 mb-20 relative overflow-hidden'>
+    <section className='m-auto w-full max-parent-grid-container-width bg-tintGray rounded-xl px-12 py-20 mb-10 relative overflow-hidden'>
         <GridContainer gridCols="grid-cols-2 max990px:grid-cols-1">
             <GridChild 
               childId={81}
@@ -51,7 +51,7 @@ export default function Services() {
         <div className='patternPosition max990px:hidden'><img src={leafPattern.src} alt=""></img></div>
     </section>
 
-    <section className='m-auto featureSection w-full max-parent-grid-container-width bg-tintYellow rounded-xl px-12 py-20 min991px:mb-40 mb-20 relative overflow-hidden'>
+    <section className='m-auto w-full max-parent-grid-container-width bg-tintYellow rounded-xl px-12 py-20 min991px:mb-40 mb-20 relative overflow-hidden'>
         <GridContainer gridCols="grid-cols-2 max990px:grid-cols-1">
             <GridChild 
               childId={83}
@@ -90,7 +90,7 @@ export default function Services() {
 
     {/* mHub services */}
 
-    <section className='m-auto featureSection w-full max-parent-grid-container-width bg-tintRed rounded-xl px-12 py-20 min991px:mb-40 mb-20 relative overflow-hidden'>
+    <section className='m-auto w-full max-parent-grid-container-width bg-tintRed rounded-xl px-12 py-20 mb-10 relative overflow-hidden'>
         <GridContainer gridCols="grid-cols-2 max990px:grid-cols-1">
             <GridChild 
               childId={85}
@@ -108,7 +108,7 @@ export default function Services() {
         <div className='patternPosition max990px:hidden'><img src={leafPattern.src} alt=""></img></div>
     </section>
 
-    <section className='m-auto w-full featureSection max-parent-grid-container-width bg-tintGreen rounded-xl px-12 py-20 min991px:mb-40 mb-20 relative overflow-hidden'>
+    <section className='m-auto w-full max-parent-grid-container-width bg-tintGreen rounded-xl px-12 py-20 mb-10 relative overflow-hidden'>
         <GridContainer gridCols="grid-cols-2 max990px:grid-cols-1">
             <GridChild 
               childId={87}

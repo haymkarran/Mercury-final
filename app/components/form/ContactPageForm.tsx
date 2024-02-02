@@ -49,11 +49,12 @@ const ContactPageForm: React.FC = () => {
             <optgroup label="Products">
               <option value="MPay">MPay</option>
               <option value="MTouch">MTouch</option>
-              <option value="Others">Others</option>
             </optgroup>
             <optgroup label="Services">
               <option value="360">360</option>
               <option value="HUB">HUB</option>
+            </optgroup>
+            <optgroup label="Others">
               <option value="Others">Others</option>
             </optgroup>
           </select>

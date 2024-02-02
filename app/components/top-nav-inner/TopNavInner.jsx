@@ -9,6 +9,7 @@ import CompanyMenuApi from "./companyMenuApi"
 
 import SingleColumnMenu from "./SingleColumnMenu";
 import svg from "../../../public/assets/logos/mercury-official-logo.svg"
+import homesvg from "../../../public/assets/icons/Home.svg"
 
 export default function TopNavInner() {
     const [productsMenuData] = useState(ProductsMenuApi);  
@@ -74,13 +75,21 @@ export default function TopNavInner() {
     return (
         <>
             <header className="header" id="main_header">
-            <div className="container pb-10 z-30 w-full max-parent-grid-container-width m-auto">
+            <div className="container z-30 w-full max-parent-grid-container-width m-auto">
                 <div className="row v-center flex-row justify-between">
                     <div className="header-item item-left flex-row">
                         <div className="mobile-menu-trigger" onClick={toggleMenu}><span /></div>
                         <div className="logo">
-                            <Link href="/" className="font-bold">
-                                Home
+                        <Link href="/">
+                                <div
+                                    style={{ width: 220, height: 50 }}
+                                    className="logo-container cursor-pointer"
+                                >
+                                    <img
+                                        src={homesvg.src}
+                                        style={{ objectFit: "contain", width: "100%", height: "100%", objectPosition: "left" }}
+                                    />
+                                </div>
                             </Link>
                         </div>
                     </div>

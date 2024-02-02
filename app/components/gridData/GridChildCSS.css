@@ -1,3 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+
 .mPayFeatureOne .asset, 
 .mPayFeatureTwo .asset, 
 .mPayFeatureThree .asset,
@@ -322,9 +329,9 @@
     max-width: 63% !important;
 }
 
-.muzaffarKhokhar p, .sanjeev p, .jun p {
+/* .muzaffarKhokhar p, .sanjeev p, .jun p {
     height: 64px;
-}
+} */
 
 .aboutMercury .asset img {
     width: 220px;
@@ -349,4 +356,10 @@
     .aboutMercury .asset img, .aboutMercury .socialMediaMainContainer {
         margin: 0 auto;
     }
+}
+
+.CareersAtMercury p {
+    max-width: 1024px;
+    text-align: center;
+    margin: 0 auto;
 }

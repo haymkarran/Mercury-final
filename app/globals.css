@@ -50,7 +50,6 @@ body {
   color: rgb(var(--foreground-rgb));
   background: rgb(var(--background-rgb));
   -webkit-font-smoothing: antialiased;
-  margin: 20px 0;
   font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu !important;
   font-display: swap;
   transition: all 0.5s ease-in-out;

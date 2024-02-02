@@ -25,6 +25,7 @@ const ClienteleScrollerChildContainer: React.FC<ClienteleScrollerChildContainerP
         clienteleScrollerData
           .filter((currentElement) => currentElement.id === scrollerApiId)
           .map((currentElement) => (
+            <>
             <div
               className="clientele-scroller-item-data-container flex flex-row gap-y-2 gap-x-16 relative overflow-visible w-fit pl-40"
               key={currentElement.id}
@@ -47,9 +48,9 @@ const ClienteleScrollerChildContainer: React.FC<ClienteleScrollerChildContainerP
                     )}
 
 
-                        {   itemData.clienteleVideo &&
+                        {/* {   itemData.clienteleVideo &&
                                 <div className="video-container w-full rounded-xl overflow-hidden relative">
-                                {/* <!--<video controls autoplay muted>--> */}
+                                <!--<video controls autoplay muted>-->
                                 <video autoPlay controls muted className="rounded-xl video-player w-full h-full object-cover">
                                     <source src={itemData.clienteleVideo} type="video/mp4"></source>
                                 </video>
@@ -72,10 +73,57 @@ const ClienteleScrollerChildContainer: React.FC<ClienteleScrollerChildContainerP
                       <h4 className="text-h4 font-bold">
                         {itemData.clienteleText}
                       </h4>
-                    )}
+                    )} */}
                   </React.Fragment>
                 ))}
             </div>
+            <div
+                className="clientele-scroller-item-data-container flex flex-row gap-y-2 gap-x-16 relative overflow-visible w-fit"
+                key={currentElement.id}
+              >
+                {currentElement.itemData &&
+                  currentElement.itemData.map((itemData) => (
+                    <React.Fragment key={itemData.id}>
+                      
+                      {itemData.clienteleImage && (
+                        <div className="clientele-image-container">
+                          <img
+                            className="clientele-image"
+                            src={itemData.clienteleImage}
+                            alt="image"
+                            width="100%"
+                            height="100%"
+                            loading="lazy"
+                          />
+                        </div>
+                      )}
+                    </React.Fragment>
+                ))}
+          </div>
+          <div
+                className="clientele-scroller-item-data-container flex flex-row gap-y-2 gap-x-16 relative overflow-visible w-fit"
+                key={currentElement.id}
+              >
+                {currentElement.itemData &&
+                  currentElement.itemData.map((itemData) => (
+                    <React.Fragment key={itemData.id}>
+                      
+                      {itemData.clienteleImage && (
+                        <div className="clientele-image-container">
+                          <img
+                            className="clientele-image"
+                            src={itemData.clienteleImage}
+                            alt="image"
+                            width="100%"
+                            height="100%"
+                            loading="lazy"
+                          />
+                        </div>
+                      )}
+                    </React.Fragment>
+                ))}
+          </div>
+          </>
           ))}
     </>
   );

@@ -53,6 +53,7 @@ const ContactUsForm: React.FC = () => {
             <optgroup label="Services">
               <option value="Mercury 360">Mercury 360</option>
               <option value="Mercury Hub">Mercury Hub</option>
+              <option value="Others">Others</option>
             </optgroup>
           </select>
         </fieldset>

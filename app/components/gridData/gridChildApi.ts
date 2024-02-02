@@ -18,7 +18,7 @@ import featureCheckIcon from "../../../public/assets/icons/featureCheckIcon.svg"
 import linkedinFilledIcon from "../../../public/assets/icons/linkedin-filled.svg"
 
 //management people
-import muzafferImage from "../../../public/assets/images/people/management/muzaffer-hamid.png"
+import muzafferImage from "../../../public/assets/images/people/management/muzaffer-hamid.jpg"
 import gururaj from "../../../public/assets/images/people/management/gururaj.png"
 import nihad from "../../../public/assets/images/people/management/nihad.png"
 import rizwan from "../../../public/assets/images/people/management/rizwan.png"
@@ -38,8 +38,8 @@ import diversity from "../../../public/assets/icons/diversity.svg"
 import agility from "../../../public/assets/icons/agility.svg"
 
 //people container
-import sreerag from "../../../public/assets/images/happyfaces/sreerag.jpeg"
-import khaled from "../../../public/assets/images/happyfaces/khaled.jpeg"
+import ana from "../../../public/assets/images/happyfaces/ana.jpeg"
+import khaled from "../../../public/assets/images/happyfaces/khaled.jpg"
 import lakshmi from "../../../public/assets/images/happyfaces/lakshmi.jpeg"
 import sherzod from "../../../public/assets/images/happyfaces/sherzod.jpeg"
 import bashar from "../../../public/assets/images/happyfaces/bashar.png"
@@ -890,7 +890,7 @@ const GridChildApi = [
         "headingH3" : [
             {
                 "id": 1,
-                "headingText": "Payment Networks in a box",
+                "headingText": "Payment Network in a box",
                 "headingLink": "",
             }
         ],
@@ -1278,7 +1278,7 @@ const GridChildApi = [
         "Paragraph": [
             { 
                 "id": 1, 
-                "paraData": "Chief Innovation Officer",
+                "paraData": "Head of Payments",
                 "paraLink": "https://www.linkedin.com/in/karashish/",
             },
         ],
@@ -1323,7 +1323,7 @@ const GridChildApi = [
         "Paragraph": [
             { 
                 "id": 1, 
-                "paraData": "Executive Chairman / Board Member",
+                "paraData": "Executive Chairman",
                 "paraLink": "https://www.linkedin.com/in/muzaffar-khokhar/",
             },
         ],
@@ -1736,7 +1736,7 @@ const GridChildApi = [
         "Asset": [
             {
                 "id": 1,
-                "imageSrc": sreerag.src,
+                "imageSrc": ana.src,
                 "imageAlt": "",
                 "imageContainerLink": "",
                 "videoSrc": "",
@@ -1748,7 +1748,7 @@ const GridChildApi = [
         "headingH3" : [
             {
                 "id": 1,
-                "headingText": "Sreerag Nyarekkat",
+                "headingText": "Ana Mamisashvili",
                 "headingLink": "",
             }
         ],
@@ -1756,7 +1756,7 @@ const GridChildApi = [
         "headingH4" : [
             {
                 "id": 1,
-                "headingText": "Business Development",
+                "headingText": "Project Management",
                 "headingLink": "",
             }
         ],
@@ -2000,11 +2000,6 @@ const GridChildApi = [
             {
                 "id": 2,
                 "listIcon": checkListIcon.src,
-                "listItemText": "Optimizing products to stay at the forefront of payment transactions",
-            },
-            {
-                "id": 3,
-                "listIcon": checkListIcon.src,
                 "listItemText": "End-to-end design and implementation of advance payment technology platform",
             },
         ],
@@ -2037,12 +2032,7 @@ const GridChildApi = [
             {
                 "id": 2,
                 "listIcon": checkListIcon.src,
-                "listItemText": "Accelerating Member Opboarding and Acceptance",
-            },
-            {
-                "id": 3,
-                "listIcon": checkListIcon.src,
-                "listItemText": "Safeguarding Payments Against Fraud & Compliance Risk",
+                "listItemText": "Center of Excellence with Best Practices in payments security and compliance",
             },
         ],
     },
@@ -2052,7 +2042,7 @@ const GridChildApi = [
         "headingH3" : [
             {
                 "id": 1,
-                "headingText": "'Scheme in a box' platform",
+                "headingText": "'Payment Network in a box' platform",
                 "headingLink": "",
             }
         ],
@@ -2070,7 +2060,7 @@ const GridChildApi = [
             {
                 "id": 1,
                 "listIcon": checkListIcon.src,
-                "listItemText": "Delivers a comprehensive turnkey payment card scheme solution, four times faster",
+                "listItemText": "Delivers a comprehensive turnkey payment card network solution, four times faster",
             },
             {
                 "id": 2,
@@ -2107,12 +2097,7 @@ const GridChildApi = [
             {
                 "id": 2,
                 "listIcon": checkListIcon.src,
-                "listItemText": "Global compliance standards",
-            },
-            {
-                "id": 3,
-                "listIcon": checkListIcon.src,
-                "listItemText": "Scalable architecture",
+                "listItemText": "Scalable architecture adhering to Global compliance standards",
             },
         ],
     },
@@ -2188,7 +2173,7 @@ const GridChildApi = [
                 "id": 1,
                 "imageSrc": MPayLogo.src,
                 "imageAlt": "",
-                "imageContainerLink": "/pages/mpay",
+                "imageContainerLink": "/pages/products",
                 "videoSrc": "",
                 "videoAlt": "",
                 "videoContainerLink": "",
@@ -2209,7 +2194,7 @@ const GridChildApi = [
                 "id": 1,
                 "imageSrc": MTouchLogo.src,
                 "imageAlt": "",
-                "imageContainerLink": "/pages/mtouch",
+                "imageContainerLink": "/pages/products#mTouchSection",
                 "videoSrc": "",
                 "videoAlt": "",
                 "videoContainerLink": "",
@@ -2219,7 +2204,7 @@ const GridChildApi = [
             {
                 "id": 1,
                 "headingText": "Powering transit cards for retail payments",
-                "headingLink": "",
+                "headingLink": "/pages/products#mTouchSection",
             }
         ],
     },
@@ -2230,7 +2215,7 @@ const GridChildApi = [
                 "id": 1,
                 "imageSrc": M360Logo.src,
                 "imageAlt": "",
-                "imageContainerLink": "/pages/m360",
+                "imageContainerLink": "/pages/services",
                 "videoSrc": "",
                 "videoAlt": "",
                 "videoContainerLink": "",
@@ -2251,7 +2236,7 @@ const GridChildApi = [
                 "id": 1,
                 "imageSrc": MHubLogo.src,
                 "imageAlt": "",
-                "imageContainerLink": "/pages/mhub",
+                "imageContainerLink": "/pages/services#mHubSection",
                 "videoSrc": "",
                 "videoAlt": "",
                 "videoContainerLink": "",
@@ -2260,8 +2245,8 @@ const GridChildApi = [
         "headingH4" : [
             {
                 "id": 1,
-                "headingText": "Payment Networks in a box",
-                "headingLink": "",
+                "headingText": "Payment Network in a box",
+                "headingLink": "/pages/services#mHubSection",
             }
         ],
     },

@@ -1,27 +1,53 @@
 .clientele-carousal-parent-container {
-    overflow-x: auto;
+    overflow: hidden;
     align-items: flex-start;
     display: flex;
     flex-shrink: 0;
     margin-inline: auto;
+    position: relative;
 }
 
 .clientele-horizontal-track {
-    overflow: visible;
-    overflow-x: visible;
+    overflow: hidden;
     align-items: flex-start;
     display: flex;
     gap: 80px;
     flex-shrink: 0;
-    align-items: center;
+    align-items: center; 
+    width: fit-content;
 }
 
+.clientele-carousal-parent-container::before, .clientele-carousal-parent-container::after {
+    position: absolute;
+    top: 0;
+    width: 10%;
+    height: 100%;
+    content: "";
+    z-index: 2000;
+}
+
+.clientele-carousal-parent-container::before {
+    left: 0;
+    background: linear-gradient(to left, rgba(255,255,255, 0), white);
+}
+
+.clientele-carousal-parent-container::after {
+    right: 0;
+    background: linear-gradient(to right, rgba(255,255,255, 0), white);
+}
+
+
+
+/* .clientele-carousal-parent-container:hover .clientele-horizontal-track {
+    animation-play-state: paused;
+} */
+
 .clientele-carousal-parent-container .Backwards {
-    animation: sliding-testimonial-backwards 120s linear infinite;
+    animation: 160s sliding-testimonial-backwards infinite linear;
 }
 
 .clientele-carousal-parent-container .BackwardsSlow {
-    animation: sliding-testimonial-backwards 120s linear infinite;
+    animation: sliding-testimonial-backwards 130s linear infinite;
 }
 
 .clientele-carousal-parent-container .Forwards {
@@ -84,12 +110,22 @@
 	        transition: all 0.6s ease-in-out;
 }
 
-@keyframes sliding-testimonial-backwards {
+/* @keyframes sliding-testimonial-backwards {
     0% {
       transform: translate3d(0, 0, 0);
     }
     100% {
       transform: translate3d(-100%, 0, 0); 
+    }
+  } */
+
+
+  @keyframes sliding-testimonial-backwards {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%); 
     }
   }
 
