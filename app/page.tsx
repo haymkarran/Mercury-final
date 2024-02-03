@@ -19,8 +19,8 @@ export default function Home() {
 
     <HeroAssetShowcase image={mercuryOffice.src} customCSS="homeHeroImageContainer" />
 
-    <section className='m-auto w-full bg-black text-white mb-40 max-parent-grid-container-width rounded-xl'>
-        <section className='m-auto max-parent-grid-container-width pt-20'>
+    <section className='m-auto w-full hero-asset-showcase-max-parent-grid-container-width max554px:pt-5 min555px:pt-10 min555px:mb-36 bg-black text-white rounded-t-none min710px:rounded-3xl overflow-hidden'>
+        <section className='m-auto max-parent-grid-container-width max554px:pt-0 min555px:pt-20'>
             <GridContainer gridCols="grid-cols-1 text-center">
                 <GridChild 
                   childId={97}
@@ -30,7 +30,7 @@ export default function Home() {
             </GridContainer>
         </section>
         
-        <section className='m-auto max-parent-grid-container-width pt-10 min710px:pb-30 pb-20 min991px:pl-40 min991px:pr-40'>
+        <section className='m-auto max-parent-grid-container-width max554px:pt-0 min555px:pt-5 min710px:pb-30 max554px:pb-10 min555px:pb-20 min991px:pl-40 min991px:pr-40'>
             <GridContainer gridCols="grid-cols-1 text-center">
                 <GridChild 
                   childId={91}
@@ -41,7 +41,7 @@ export default function Home() {
         </section>
     </section>
 
-    <section className='m-auto w-full max-parent-grid-container-width pb-20'>
+    <section className='m-auto w-full max-parent-grid-container-width max554px:pt-20 pb-20'>
         <GridContainer gridCols="grid-cols-1 text-center">
             <GridChild 
               childId={92}

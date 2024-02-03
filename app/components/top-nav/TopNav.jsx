@@ -76,8 +76,7 @@ export default function TopNav() {
             <header className="header" id="main_header">
             <div className="container z-30 w-full max-parent-grid-container-width m-auto">
                 <div className="row v-center flex-row justify-between">
-                    <div className="header-item item-left flex-row">
-                        <div className="mobile-menu-trigger" onClick={toggleMenu}><span /></div>
+                    <div className="header-item item-left flex-row mobileHeaderCss">
                         <div className="logo">
                             <Link href="/">
                                 <div
@@ -91,6 +90,7 @@ export default function TopNav() {
                                 </div>
                             </Link>
                         </div>
+                        <div className="mobile-menu-trigger" onClick={toggleMenu}><span /></div>
                     </div>
                     {/* <button
                     type="button"
@@ -133,7 +133,8 @@ export default function TopNav() {
                                         Careers 
                                     </a>
                                 </li>
-                                <li className="menu-item-has-children">
+                                {/* <li className="menu-item-has-children"> */}
+                                <li>
                                     <Link href="/pages/contact-us">
                                         <button
                                             type="button"

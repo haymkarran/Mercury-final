@@ -24,7 +24,7 @@ export default function Careers () {
     {/* photo section */}
     <AssetLightbox />
 
-      <section className='m-auto w-full max-parent-grid-container-width pt-60'>
+      <section className='m-auto w-full max-parent-grid-container-width max554px:pt-20 min555px:pt-60'>
         <GridContainer gridCols="grid-cols-1 text-center">
             <GridChild 
               childId={68}

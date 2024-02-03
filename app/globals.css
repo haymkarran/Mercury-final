@@ -194,7 +194,7 @@ body {
 }
 
 @media only screen and (min-width: 710px) and (max-width: 990px){
-  .max-parent-grid-container-width {
+  .max-parent-grid-container-width, .hero-asset-showcase-max-parent-grid-container-width {
     max-width: 702px !important;
   }  
 
@@ -204,7 +204,7 @@ body {
 }
 
 @media only screen and (min-width: 991px) and (max-width: 1279px){
-  .max-parent-grid-container-width {
+  .max-parent-grid-container-width, .hero-asset-showcase-max-parent-grid-container-width {
     max-width: 860px !important;
   }  
 
@@ -214,7 +214,7 @@ body {
 }
 
 @media only screen and (min-width: 1280px) and (max-width: 1366px){
-  .max-parent-grid-container-width {
+  .max-parent-grid-container-width, .hero-asset-showcase-max-parent-grid-container-width {
     max-width: 1180px !important;
   }  
 
@@ -224,7 +224,7 @@ body {
 }
 
 @media only screen and (min-width: 1367px) and (max-width: 1600px){
-  .max-parent-grid-container-width {
+  .max-parent-grid-container-width, .hero-asset-showcase-max-parent-grid-container-width {
     max-width: 1300px !important;
   }  
   
@@ -234,7 +234,7 @@ body {
 }
 
 @media only screen and (min-width: 1661px) {
-  .max-parent-grid-container-width {
+  .max-parent-grid-container-width, .hero-asset-showcase-max-parent-grid-container-width {
     max-width: 1540px !important;
   }  
 

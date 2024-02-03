@@ -1,13 +1,13 @@
 'use client'
 import { useState, useEffect } from "react";
 import Link from "next/link";
-import './CSSheader.css'
+import '../top-nav/CSSheader.css'
 
-import ProductsMenuApi from "./productsMenuApi"
-import ServicesMenuApi from "./servicesMenuApi"
-import CompanyMenuApi from "./companyMenuApi"
+import ProductsMenuApi from "../top-nav/productsMenuApi"
+import ServicesMenuApi from "../top-nav/servicesMenuApi"
+import CompanyMenuApi from "../top-nav/companyMenuApi"
 
-import SingleColumnMenu from "./SingleColumnMenu";
+import SingleColumnMenu from "../top-nav/SingleColumnMenu";
 import svg from "../../../public/assets/logos/mercury-official-logo.svg"
 import homesvg from "../../../public/assets/icons/Home.svg"
 
@@ -77,8 +77,7 @@ export default function TopNavInner() {
             <header className="header" id="main_header">
             <div className="container z-30 w-full max-parent-grid-container-width m-auto">
                 <div className="row v-center flex-row justify-between">
-                    <div className="header-item item-left flex-row">
-                        <div className="mobile-menu-trigger" onClick={toggleMenu}><span /></div>
+                    <div className="header-item item-left flex-row mobileHeaderCss">
                         <div className="logo">
                         <Link href="/">
                                 <div
@@ -92,6 +91,7 @@ export default function TopNavInner() {
                                 </div>
                             </Link>
                         </div>
+                        <div className="mobile-menu-trigger" onClick={toggleMenu}><span /></div>
                     </div>
                     {/* <button
                     type="button"
@@ -134,7 +134,7 @@ export default function TopNavInner() {
                                         Careers 
                                     </a>
                                 </li>
-                                <li className="menu-item-has-children">
+                                <li>
                                     <Link href="/pages/contact-us">
                                         <button
                                             type="button"
