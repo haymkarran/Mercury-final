@@ -346,10 +346,11 @@ header .mobile-menu-trigger{
 	.header .menu > ul > li{
 		line-height: 1;
 		display: block;
+		margin: 30px 0px;
 	}
 	.header .menu > ul > li > a{
 		line-height: 50px;
-		padding:0 50px 0 15px;
+		padding:0 15px;
 		display: block;
 	}
 	.header .menu > ul > li > a .menu-nav-arrow {
