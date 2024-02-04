@@ -47,7 +47,7 @@
 }
 
 .clientele-carousal-parent-container .BackwardsSlow {
-    animation: sliding-testimonial-backwards 130s linear infinite;
+    animation: sliding-testimonial-backwards 160s linear infinite;
 }
 
 .clientele-carousal-parent-container .Forwards {
@@ -125,7 +125,7 @@
       transform: translateX(0);
     }
     100% {
-      transform: translateX(-100%); 
+      transform: translateX(-90%); 
     }
   }
 

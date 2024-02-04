@@ -25,17 +25,17 @@ export default function Home() {
                 <GridChild 
                   childId={97}
                   customHeaderCss="font-medium beyondPaymentsText"
-                  childName=""
+                  childName="BeyondPaymentsHeading"
                 />
             </GridContainer>
         </section>
         
-        <section className='m-auto max-parent-grid-container-width max554px:pt-0 min555px:pt-5 min710px:pb-30 max554px:pb-10 min555px:pb-20 min991px:pl-40 min991px:pr-40'>
+        <section className='m-auto max-parent-grid-container-width max554px:pt-0 min555px:pt-5 min710px:pb-30 max554px:pb-10 min555px:pb-20 max1279px:px-10 min1280px:px-40'>
             <GridContainer gridCols="grid-cols-1 text-center">
                 <GridChild 
                   childId={91}
                   customHeaderCss="homeHeroText"
-                  childName=""
+                  childName="BeyondPaymentsText"
                 />
             </GridContainer>
         </section>
@@ -51,7 +51,7 @@ export default function Home() {
         </GridContainer>
     </section>
 
-    <section className='m-auto w-full pb-20 max-w-7xl max1279px:max-w-2xl'>
+    <section className='m-auto w-full max554px:pb-0 min555px:pb-20 max-w-7xl max1279px:max-w-2xl'>
         <GridContainer gridCols="!flex !gap-5 justify-center flex-row flex-wrap !align-start pb-20 m-auto">
             <GridChild 
               childId={93}
@@ -80,12 +80,12 @@ export default function Home() {
         </GridContainer>
     </section>
 
-        <section className='m-auto max-parent-grid-container-width pt-20'>
+        <section className='m-auto max-parent-grid-container-width max554px:pt-0 min555px:pt-20'>
             <GridContainer gridCols="grid-cols-1 text-center">
                 <GridChild 
                   childId={98}
                   customHeaderCss="font-medium"
-                  childName="theManagement"
+                  childName=""
                 />
             </GridContainer>
         </section>

@@ -353,6 +353,14 @@
 }
 
 @media only screen and (max-width: 554px){
+    .mPayBrief .asset, .mTouchBrief .asset, .m360Brief .asset, .mHubPageBrief .asset {
+        max-width: fit-content;
+        height: 120px;
+        overflow: hidden;
+    }
+}
+
+@media only screen and (max-width: 709px){
     .aboutMercury .asset img, .aboutMercury .socialMediaMainContainer {
         margin: 0 auto;
     }

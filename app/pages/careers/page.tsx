@@ -1,20 +1,20 @@
 import GridContainer from '../../components/gridData/GridContainer'
 import GridChild from '../../components/gridData/GridChild'
-import AssetLightbox from '@/app/components/asset-lightbox/AssetLightbox'
 import CareersForm from '@/app/components/form/CareersForm'
 import TopNav from '@/app/components/top-nav/TopNav'
+import AssetLightboxCareers from '@/app/components/asset-lightbox/AssetLightboxCareers'
 
 export default function Careers () {
   return (
     <>
     <TopNav />
 
-    <section className='m-auto w-full max-parent-grid-container-width pt-10 pb-20'>
+    <section className='m-auto w-full max-parent-grid-container-width max554px:pt-2 min555px:pt-10 max554px:pb-10 min555px:pb-20'>
         <GridContainer gridCols="grid-cols-1 text-center">
             <GridChild 
               childId={63}
               customHeaderCss="font-bold"
-              childName="CareersAtMercury"
+              childName="CareersAtMercury max554px:gap-y-0"
               h1Order={1}
               paragraphOrder={2}
             />
@@ -22,7 +22,7 @@ export default function Careers () {
     </section>
 
     {/* photo section */}
-    <AssetLightbox />
+    <AssetLightboxCareers />
 
       <section className='m-auto w-full max-parent-grid-container-width max554px:pt-20 min555px:pt-60'>
         <GridContainer gridCols="grid-cols-1 text-center">

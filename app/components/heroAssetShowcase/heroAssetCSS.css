@@ -162,10 +162,20 @@
     .companyHeroImageContainer img {
         object-position: center !important;
     }
+}
 
+@media only screen and (max-width: 375px){
     .companyHeroText, .homeHeroText {
         font-size: 18px;
         line-height: 26px;
+        padding: 0px 18px;
+    }
+}
+
+@media (min-width: 376px) and (max-width: 440px){
+    .companyHeroText, .homeHeroText {
+        font-size: 22px;
+        line-height: 42px;
         padding: 0px 18px;
     }
 }

@@ -75,7 +75,7 @@ const AssetLightboxData: React.FC<AssetLightboxDataProps> = ({ lightboxData }) =
       {lightboxData &&
         lightboxData.map((currentElement, index) => (
           <div
-            className="imageContainerLightbox rounded-2xl overflow-hidden max990px:!w-full max990px:!h-72 min991px:!h-96"
+            className="imageContainerLightbox max554px:max-w-80 max-w-sm flex-none rounded-2xl overflow-hidden max990px:!h-72 min991px:!h-96"
             key={index}
             onClick={() => handleOpenModal(index)}
             // variants={fadeInAnimationVariants}
