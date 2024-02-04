@@ -354,9 +354,7 @@
 
 @media only screen and (max-width: 554px){
     .mPayBrief .asset, .mTouchBrief .asset, .m360Brief .asset, .mHubPageBrief .asset {
-        max-width: fit-content;
         height: 120px;
-        overflow: hidden;
     }
 }
 
@@ -370,4 +368,8 @@
     max-width: 1024px;
     text-align: center;
     margin: 0 auto;
+}
+
+.image-position-left img {
+    object-position: left;
 }

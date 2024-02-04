@@ -20,7 +20,7 @@ export default function Products() {
             <GridChild 
               childId={19}
               customHeaderCss=""
-              childName="mPayBrief max554px:gap-y-0"
+              childName="mPayBrief max554px:gap-y-0 image-position-left"
               h3Order={2}
               assetOrder={1}
               buttonOrder={3}
@@ -76,7 +76,7 @@ export default function Products() {
         <GridContainer gridCols="grid-cols-2 max990px:grid-cols-1">
             <GridChild 
               childId={27}
-              childName="mTouchBrief max554px:gap-y-0"
+              childName="mTouchBrief max554px:gap-y-0 image-position-left"
               customHeaderCss=""
               h3Order={2}
               assetOrder={1}

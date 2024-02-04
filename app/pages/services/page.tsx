@@ -19,7 +19,7 @@ export default function Services() {
         <GridContainer gridCols="grid-cols-2 max709px:grid-cols-1">
           <GridChild 
               childId={32}
-              childName="m360Brief max554px:gap-y-0"
+              childName="m360Brief max554px:gap-y-0 image-position-left"
               customHeaderCss=""
               h3Order={2}
               assetOrder={1}
@@ -75,7 +75,7 @@ export default function Services() {
         <GridContainer gridCols="grid-cols-2 max990px:grid-cols-1">
         <GridChild 
               childId={39}
-              childName="mHubPageBrief max554px:gap-y-0"
+              childName="mHubPageBrief max554px:gap-y-0 image-position-left"
               h3Order={2}
               customHeaderCss=""
               assetOrder={1}
