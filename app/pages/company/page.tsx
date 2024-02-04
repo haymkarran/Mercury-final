@@ -39,10 +39,10 @@ export default function Company () {
 
     {/* management people grid */}
     <section className='m-auto w-full pb-20'>
-        <GridContainer gridCols="!flex !gap-5 justify-center flex-row flex-wrap !align-start pb-20 m-auto">
+        <GridContainer gridCols="!flex !gap-5 justify-center flex-row flex-wrap !align-start min555px:pb-20 m-auto max554px:!gap-y-14">
             <GridChild 
               childId={52}
-              childName="muzafferHamid peopleManagementGrid h-full !justify-between"
+              childName="muzafferHamid peopleManagementGrid h-full !justify-between max554px:gap-y-2"
               assetOrder={1}
               h4Order={2}
               paragraphOrder={3}
@@ -50,7 +50,7 @@ export default function Company () {
             />
             <GridChild 
               childId={53}
-              childName="gururaj peopleManagementGrid h-full !justify-between"
+              childName="gururaj peopleManagementGrid h-full !justify-between max554px:gap-y-2"
               assetOrder={1}
               h4Order={2}
               paragraphOrder={3}
@@ -58,7 +58,7 @@ export default function Company () {
             />
             <GridChild 
               childId={54}
-              childName="nihad peopleManagementGrid h-full !justify-between"
+              childName="nihad peopleManagementGrid h-full !justify-between max554px:gap-y-2"
               assetOrder={1}
               h4Order={2}
               paragraphOrder={3}
@@ -74,7 +74,7 @@ export default function Company () {
             /> */}
             <GridChild 
               childId={56}
-              childName="ashish peopleManagementGrid h-full !justify-between"
+              childName="ashish peopleManagementGrid h-full !justify-between max554px:gap-y-2"
               assetOrder={1}
               h4Order={2}
               paragraphOrder={3}
@@ -84,7 +84,7 @@ export default function Company () {
     </section>
 
     {/* the board */}
-    <section className='m-auto w-full max-parent-grid-container-width pb-20'>
+    <section className='m-auto w-full max-parent-grid-container-width pb-20 max554px:pb-8'>
         <GridContainer gridCols="grid-cols-1 text-center">
             <GridChild 
               childId={57}
@@ -96,10 +96,10 @@ export default function Company () {
 
     {/* board people grid */}
     <section className='m-auto w-full max-parent-grid-container-width pb-10'>
-        <GridContainer gridCols="!flex justify-center flex-row flex-wrap !align-start pb-20 m-auto">
+        <GridContainer gridCols="!flex justify-center flex-row flex-wrap !align-start pb-20 max554px:pb-12 m-auto max554px:gap-y-14">
             <GridChild 
               childId={58}
-              childName="muzaffarKhokhar peopleManagementGrid h-full !justify-between"
+              childName="muzaffarKhokhar peopleManagementGrid h-full !justify-between max554px:gap-y-2"
               assetOrder={1}
               h4Order={2}
               paragraphOrder={3}
@@ -107,7 +107,7 @@ export default function Company () {
             />
             <GridChild 
               childId={59}
-              childName="sanjeev peopleManagementGrid h-full !justify-between"
+              childName="sanjeev peopleManagementGrid h-full !justify-between max554px:gap-y-2"
               assetOrder={1}
               h4Order={2}
               paragraphOrder={3}
@@ -115,17 +115,17 @@ export default function Company () {
             />
             <GridChild 
               childId={60}
-              childName="jun peopleManagementGrid h-full !justify-between"
+              childName="jun peopleManagementGrid h-full !justify-between max554px:gap-y-2"
               assetOrder={1}
               h4Order={2}
               paragraphOrder={3}
               socialMediaOrder={4}
             />
         </GridContainer>
-        <GridContainer gridCols="!flex justify-center flex-row flex-wrap !align-start pb-20 m-auto">
+        <GridContainer gridCols="!flex justify-center flex-row flex-wrap !align-start min555px:pb-20 m-auto max554px:gap-y-14">
             <GridChild 
               childId={61}
-              childName="matt peopleManagementGrid h-full !justify-between"
+              childName="matt peopleManagementGrid h-full !justify-between max554px:gap-y-2"
               assetOrder={1}
               h4Order={2}
               paragraphOrder={3}
@@ -133,7 +133,7 @@ export default function Company () {
             />
             <GridChild 
               childId={89}
-              childName="sivarama peopleManagementGrid h-full !justify-between"
+              childName="sivarama peopleManagementGrid h-full !justify-between max554px:gap-y-2"
               assetOrder={1}
               h4Order={2}
               paragraphOrder={3}

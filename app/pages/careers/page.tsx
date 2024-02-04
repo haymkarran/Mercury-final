@@ -24,7 +24,7 @@ export default function Careers () {
     {/* photo section */}
     <AssetLightboxCareers />
 
-      <section className='m-auto w-full max-parent-grid-container-width max554px:pt-20 min555px:pt-60'>
+      <section className='m-auto w-full max-parent-grid-container-width max554px:pt-32 min555px:pt-60'>
         <GridContainer gridCols="grid-cols-1 text-center">
             <GridChild 
               childId={68}
@@ -35,32 +35,32 @@ export default function Careers () {
         </GridContainer>
     </section>
 
-    <section className='ourInclusiveValues m-auto w-full max-w-7xl pt-20 pb-30'>
-        <GridContainer gridCols="grid-cols-4 !gap-5 max1279px:grid-cols-2 max709px:!grid-cols-1">
+    <section className='ourInclusiveValues m-auto w-full max-w-7xl pt-20 pb-30 max554px:pt-8'>
+        <GridContainer gridCols="grid-cols-4 !gap-5 max990px:grid-cols-2 px-5">
           <GridChild 
               childId={64}
-              childName="determination hover:scale-110 w-full bg-tintRed text-center h-80 items-center rounded-lg"
+              childName="determination hover:scale-110 w-full bg-tintRed text-center h-80 max554px:h-52 items-center rounded-lg"
               customHeaderCss="font-bold"
               h4Order={2}
               assetOrder={1}
             />
             <GridChild 
               childId={65}
-              childName="empathy hover:scale-110 w-full bg-tintRed text-center h-80 items-center rounded-lg"
+              childName="empathy hover:scale-110 w-full bg-tintRed text-center h-80 max554px:h-52 items-center rounded-lg"
               customHeaderCss="font-bold"
               h4Order={2}
               assetOrder={1}
             />
             <GridChild 
               childId={66}
-              childName="agility hover:scale-110 w-full bg-tintRed text-center h-80 items-center rounded-lg"
+              childName="agility hover:scale-110 w-full bg-tintRed text-center h-80 max554px:h-52 items-center rounded-lg"
               customHeaderCss="font-bold"
               h4Order={2}
               assetOrder={1}
             />
             <GridChild 
               childId={67}
-              childName="diversity hover:scale-110 w-full bg-tintRed text-center h-80 items-center rounded-lg"
+              childName="diversity hover:scale-110 w-full bg-tintRed text-center h-80 max554px:h-52 items-center rounded-lg"
               customHeaderCss="font-bold"
               h4Order={2}
               assetOrder={1}

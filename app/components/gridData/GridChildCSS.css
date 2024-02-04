@@ -356,6 +356,11 @@
     .mPayBrief .asset, .mTouchBrief .asset, .m360Brief .asset, .mHubPageBrief .asset {
         height: 120px;
     }
+
+    .text-h4 {
+        font-size: 20px;
+        line-height: 32px;
+    }
 }
 
 @media only screen and (max-width: 709px){
