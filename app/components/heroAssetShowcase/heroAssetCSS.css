@@ -175,8 +175,8 @@
 @media (min-width: 376px) and (max-width: 440px){
     .companyHeroText, .homeHeroText {
         font-size: 22px;
-        line-height: 42px;
-        padding: 0px 18px;
+        line-height: 32px;
+        padding: 0px;
     }
 }
 

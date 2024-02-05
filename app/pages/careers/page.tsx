@@ -108,7 +108,17 @@ export default function Careers () {
               customHeaderCss=''
             />
             <GridChild 
-              childId={71}
+              childId={73}
+              childName="peopleContainer !gap-y-4 !w-60"
+              assetOrder={1}
+              h3Order={2}
+              h4Order={3}
+              // socialMediaOrder={5}
+              paragraphOrder={4}
+              customHeaderCss=''
+            />
+            <GridChild 
+              childId={74}
               childName="peopleContainer !gap-y-4 !w-60"
               assetOrder={1}
               h3Order={2}
@@ -118,7 +128,7 @@ export default function Careers () {
               customHeaderCss=''
             />
             <GridChild 
-              childId={74}
+              childId={71}
               childName="peopleContainer !gap-y-4 !w-60"
               assetOrder={1}
               h3Order={2}
@@ -135,16 +145,6 @@ export default function Careers () {
               h4Order={3}
               paragraphOrder={4}
               // socialMediaOrder={5}
-              customHeaderCss=''
-            />
-            <GridChild 
-              childId={73}
-              childName="peopleContainer !gap-y-4 !w-60"
-              assetOrder={1}
-              h3Order={2}
-              h4Order={3}
-              // socialMediaOrder={5}
-              paragraphOrder={4}
               customHeaderCss=''
             />
         </GridContainer>

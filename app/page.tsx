@@ -19,7 +19,7 @@ export default function Home() {
 
     <HeroAssetShowcase image={mercuryOffice.src} customCSS="homeHeroImageContainer" />
 
-    <section className='m-auto w-full hero-asset-showcase-max-parent-grid-container-width max554px:pt-5 min555px:pt-10 min555px:mb-36 bg-black text-white rounded-t-none min710px:rounded-3xl overflow-hidden'>
+    <section className='m-auto w-full hero-asset-showcase-max-parent-grid-container-width py-10 min555px:mb-36 bg-black text-white rounded-t-none min710px:rounded-3xl overflow-hidden'>
         <section className='m-auto max-parent-grid-container-width max554px:pt-0 min555px:pt-20'>
             <GridContainer gridCols="grid-cols-1 text-center">
                 <GridChild 
@@ -30,7 +30,7 @@ export default function Home() {
             </GridContainer>
         </section>
         
-        <section className='m-auto max-parent-grid-container-width max554px:pt-0 min555px:pt-5 min710px:pb-30 max554px:pb-10 min555px:pb-20 max1279px:px-10 min1280px:px-40'>
+        <section className='m-auto max-parent-grid-container-width max554px:pt-0 min555px:pt-5 min710px:pb-30 max554px:pb-10 min555px:pb-20 max709px:!px-0 max1279px:px-10 min1280px:px-40'>
             <GridContainer gridCols="grid-cols-1 text-center">
                 <GridChild 
                   childId={91}

@@ -15,8 +15,8 @@ export default function Company () {
 
     <HeroAssetShowcase image={officePeople.src} customCSS="companyHeroImageContainer" />
 
-    <section className='m-auto w-full hero-asset-showcase-max-parent-grid-container-width pt-10 min555px:mb-36 max554px:mb-10 bg-black text-white rounded-t-none min710px:rounded-b-3xl overflow-hidden'>
-        <section className='m-auto w-full min555px:px-10 pb-10'>
+    <section className='m-auto w-full hero-asset-showcase-max-parent-grid-container-width py-14 min555px:mb-36 max554px:mb-10 bg-black text-white rounded-t-none min710px:rounded-b-3xl overflow-hidden'>
+        <section className='m-auto w-full min555px:px-10'>
             <GridContainer gridCols="grid-cols-1 text-center">
                 <GridChild 
                   childId={90}
@@ -27,7 +27,7 @@ export default function Company () {
         </section>
     </section>
 
-    <section className='m-auto w-full pl-10 pr-10 pb-10'>
+    <section className='m-auto w-full pl-10 pr-10 pb-10 max554px:px-10'>
             <GridContainer gridCols="grid-cols-1 text-center">
                 <GridChild 
                   childId={51}
