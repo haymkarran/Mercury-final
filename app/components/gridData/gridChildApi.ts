@@ -1476,7 +1476,7 @@ const GridChildApi = [
         "Paragraph": [
             { 
                 "id": 1, 
-                "paraData": "e are working with businesses locally & globally for inclusive, sustainable, and equitable growth.",
+                "paraData": "We are working with businesses locally & globally for inclusive, sustainable, and equitable growth.",
                 "paraLink": "",
             },
         ],
