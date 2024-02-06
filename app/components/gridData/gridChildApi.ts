@@ -1469,14 +1469,14 @@ const GridChildApi = [
         "headingH1" : [
             {
                 "id": 1,
-                "headingText": "Careers At Mercury",
+                "headingText": "Life At Mercury",
                 "headingLink": "",
             }
         ],
         "Paragraph": [
             { 
                 "id": 1, 
-                "paraData": "At Mercury, we're delighted to present enriching career opportunities. Come be a part of our dynamic, innovative, and multicultural team.",
+                "paraData": "e are working with businesses locally & globally for inclusive, sustainable, and equitable growth.",
                 "paraLink": "",
             },
         ],
