@@ -1,27 +1,39 @@
 'use client'
 import React, { useState } from "react";
 import ClienteleScrollerApi from "./clienteleScrollerApi";
-import ClienteleScrollerChildContainer from "./ClienteleScrollerChildContainer";
+// import ClienteleScrollerChildContainer from "./ClienteleScrollerChildContainer";
 import './ClienteleScrollerCSS.css';
 
 interface ClienteleScrollerProps {
     scrollerApiId: number;
-    slideDirection: string;
+    // slideDirection?: string;
 }
 
-const ClienteleScroller: React.FC<ClienteleScrollerProps> = ({scrollerApiId, slideDirection}) => {
+const ClienteleScroller: React.FC<ClienteleScrollerProps> = ({scrollerApiId}) => {
     const [clienteleScrollerData] = useState(ClienteleScrollerApi);
 
     return (
         <>
-            <div className="clientele-carousal-parent-container w-full py-4">
-                    <div
-                        className={`clientele-horizontal-track ${slideDirection}`}
-                        id="community_pics_file"
-                    >
-                        <ClienteleScrollerChildContainer clienteleScrollerData={clienteleScrollerData} scrollerApiId={scrollerApiId} />
+
+                <div className="mainContainer">
+                    <div className="innerContainer">
+                        <ul className="ulGroup">
+                            {
+                                clienteleScrollerData.map((currentElement) => (
+                                    <li key={currentElement.id} className="liItem"><img src={currentElement.clienteleImage} alt="image" /></li>
+                                ))
+                            }
+                        </ul>
+                        <ul className="ulGroup">
+                            {
+                                clienteleScrollerData.map((currentElement) => (
+                                    <li key={currentElement.id} className="liItem"><img src={currentElement.clienteleImage} alt="image" /></li>
+                                ))
+                            }
+                        </ul>
                     </div>
-             </div>
+                </div>
+
         </>
     );
 };
