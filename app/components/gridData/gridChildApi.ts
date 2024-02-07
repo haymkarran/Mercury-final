@@ -478,7 +478,7 @@ const GridChildApi = [
             { 
                 "id": 2, 
                 "paraData": "Join Us",
-                "paraLink": "/pages/careers",
+                "paraLink": "/pages/people#careersFormSection",
             },
             { 
                 "id": 3, 
@@ -503,12 +503,12 @@ const GridChildApi = [
             { 
                 "id": 1, 
                 "paraData": "T&C",
-                "paraLink": "/terms-and-conditions",
+                "paraLink": "/pages/terms-and-conditions",
             },
             { 
                 "id": 2, 
                 "paraData": "Privacy Policy",
-                "paraLink": "/privacy-policy",
+                "paraLink": "/pages/privacy-policy",
             },
         ],
     },

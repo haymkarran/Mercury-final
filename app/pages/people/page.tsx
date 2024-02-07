@@ -150,7 +150,7 @@ export default function Careers () {
         </GridContainer>
     </section>
 
-    <section className='m-auto w-full max-parent-grid-container-width my-32 flex justify-center'>
+    <section id='careersFormSection' className='m-auto w-full max-parent-grid-container-width my-32 flex justify-center'>
             <GridContainer gridCols="grid-cols-1 max-parent-grid-container-width">
                 <GridChild 
                   childId={77}

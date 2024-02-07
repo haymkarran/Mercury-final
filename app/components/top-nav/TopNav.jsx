@@ -129,8 +129,8 @@ export default function TopNav() {
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="/pages/careers">
-                                        Careers 
+                                    <a href="/pages/people">
+                                        People 
                                     </a>
                                 </li>
                                 {/* <li className="menu-item-has-children"> */}
