@@ -7,7 +7,7 @@ export default function Privacy () {
     <TopNav />
 
     <section className='m-auto w-full max-parent-grid-container-width max554px:pt-2 min555px:pt-10 max554px:pb-10 min555px:pb-20'>
-        <div className='text-paragraph'><h3 className='text-h3 bold'>Privacy Policy</h3><br />
+        <div><h3 className='text-h3 bold'>Privacy Policy</h3><br />
             Last updated: February, 2024
             This Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your information when You use the Service and tells You about Your privacy rights and how the law protects You.
             We use Your Personal data to provide and improve the Service. By using the Service, You agree to the collection and use of information in accordance with this Privacy Policy. This Privacy Policy has been created with the help of the Free Privacy Policy Generator.<br /><br />
