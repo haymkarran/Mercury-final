@@ -16,8 +16,8 @@ const ClienteleScroller: React.FC<ClienteleScrollerProps> = ({scrollerApiId}) =>
         <>
 
                 <div className="mainContainer">
-                    <div className="innerContainer">
-                        <ul className="ulGroup">
+                    <div className="innerContainer"> {/* Marque */}
+                        <ul className="ulGroup"> {/* Marque Group */}
                             {
                                 clienteleScrollerData.map((currentElement) => (
                                     <li key={currentElement.id} className="liItem"><img src={currentElement.clienteleImage} alt="image" /></li>
