@@ -7,7 +7,6 @@ import Link from 'next/link'
 import 'react-intersection-observer'
 import TopNav from './components/top-nav/TopNav'
 import HeroAssetShowcase from './components/heroAssetShowcase/HeroAssetShowcase'
-// import FeaturedVideo from './components/featuredVideo/FeaturedVideo'
 import mercuryOffice from '../public/assets/images/office/mercury-office-official.jpeg';
 import ClienteleScroller from './components/clientele-scroller/ClienteleScroller'
 import AnimatedSection from './components/animated-section/AnimatedSection'

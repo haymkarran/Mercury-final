@@ -20,10 +20,9 @@ export default function RootLayout({
         {children}
       <Footer />
 
-      {/* <div id="root"></div>  */}
       <div className="modalDiv"></div>
       
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+      <script async src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     
       <script defer type="text/javascript" src="https://haymkarran.design/ImageSliderScript.js"></script>
       </body>

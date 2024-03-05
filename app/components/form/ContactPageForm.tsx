@@ -95,7 +95,7 @@ const ContactPageForm: React.FC = () => {
     setValid(validatePhoneNumber(value));
   };
 
-  const handleSubmit = async (event: React.ChangeEvent<HTMLInputElement>) => {
+  const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
       event.preventDefault();
   }
 

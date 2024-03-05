@@ -79,6 +79,7 @@ import React, { useState, ChangeEvent, FormEvent } from 'react';
 import 'react-phone-input-2/lib/style.css';
 import PhoneInput from 'react-phone-input-2';
 import './contactUsFormCSS.css';
+import { PhoneInputProps } from 'react-phone-input-2';
 
 const CareersForm: React.FC = () => {
   const [name, setName] = useState<string>('');
@@ -87,6 +88,10 @@ const CareersForm: React.FC = () => {
   const [valid, setValid] = useState<boolean>(true);
   const [coverLetter, setCoverLetter] = useState<string>('');
   const [cvFile, setCVFile] = useState<File | null>(null);
+
+  // interface CustomPhoneInputProps extends PhoneInputProps {
+  //   className?: string;
+  // }
 
   const handleChange = (value: string) => {
     setPhoneNumber(value);
@@ -134,7 +139,7 @@ const CareersForm: React.FC = () => {
             Phone Number:
             <PhoneInput
               country={'ae'}
-              className="phoneNumber"
+              // className="phoneNumber"
               value={phoneNumber}
               onChange={handleChange}
               inputProps={{

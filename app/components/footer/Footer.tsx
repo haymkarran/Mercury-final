@@ -7,17 +7,6 @@ import Link from 'next/link'
 const Footer = () => {
   return (
     <>
-        {/* <section className='sectionContainer m-auto w-full py-40 contactUsSection'>
-        <GridContainer gridCols="grid-cols-1 max-parent-grid-container-width m-auto">
-            <GridChild 
-              childId={12}
-              customHeaderCss="font-bold"
-              childName="WriteToUs"
-              h2Order={1}
-              buttonOrder={2}
-            />
-        </GridContainer>
-    </section> */}
     <section className='m-auto sectionContainer m-auto w-full max-parent-grid-container-width max554px:pt-20 min555px:pt-40 pb-8 footer-section-components'>
         <GridContainer gridCols="min991px:grid-cols-5 smTablet:grid-cols-2 m-auto !items-start pb-12 border-b max709px:grid-cols-1 max990px:gap-y-24">
         <GridChild 

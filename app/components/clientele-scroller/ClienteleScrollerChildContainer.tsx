@@ -9,7 +9,6 @@ interface ClienteleScrollerChildContainerProps {
       clienteleImage?: string;
       clienteleVideo?: string;
       clienteleYouTubeVideo?: string;
-      // You can add other properties (clienteleImage, clienteleVideo, etc.) here if needed
     }>;
   }>;
   scrollerApiId: number;
@@ -49,7 +48,6 @@ const ClienteleScrollerChildContainer: React.FC<ClienteleScrollerChildContainerP
 
                         {   itemData.clienteleVideo &&
                                 <div className="video-container w-full rounded-xl overflow-hidden relative">
-                                {/* <!--<video controls autoplay muted>--> */}
                                 <video autoPlay controls muted className="rounded-xl video-player w-full h-full object-cover">
                                     <source src={itemData.clienteleVideo} type="video/mp4"></source>
                                 </video>
